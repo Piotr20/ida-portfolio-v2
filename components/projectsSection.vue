@@ -12,9 +12,7 @@
             at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
             lacinia eleifend.
           </p>
-          <NuxtLink class="project-4-anim" to="/CountryWelness"
-            >Se mere</NuxtLink
-          >
+          <NuxtLink class="project-4-anim" to="/">Se mere</NuxtLink>
         </div>
       </div>
       <div class="project project-2">
