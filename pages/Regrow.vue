@@ -16,7 +16,7 @@
           virksomhedens fremtid gennem ’Storyscaping’ konceptet. Dette indebærer
           at kreere et univers med fordybende oplevelser som kan skabe en
           relation mellem brandet og kunden, som giver emotionel engageret
-          kunder som afkast
+          kunder som afkast.
         </p>
       </div>
       <div>
