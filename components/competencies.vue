@@ -32,17 +32,17 @@
 export default {
   name: 'Competencies',
   mounted: function () {
-    // gsap.from(".competencies-anim", {
-    //   scrollTrigger: {
-    //     trigger: "#competencies",
-    //     start: "top 70%",
-    //   },
-    //   opacity: 0,
-    //   y: 30,
-    //   duration: 0.3,
-    //   stagger: 0.3,
-    //   ease: "power1.inOut",
-    // });
+    this.$gsap.from('.competencies-anim', {
+      scrollTrigger: {
+        trigger: '#competencies',
+        start: 'top 70%',
+      },
+      opacity: 0,
+      y: 30,
+      duration: 0.3,
+      stagger: 0.3,
+      ease: 'power1.inOut',
+    })
   },
 }
 </script>

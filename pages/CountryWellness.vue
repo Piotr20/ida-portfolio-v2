@@ -2,45 +2,39 @@
   <div>
     <Header />
     <div id="spacer"></div>
-    <TextBox text="Smokepins" />
+    <TextBox text="Country Wellness" />
     <section class="project-details">
       <div>
         <h2 class="">PROJEKT BESKRIVELSE</h2>
         <p>
-          Smokepins ApS er en dansk startupvirksomhed opstartet af Ole Gravrok i
-          2017. Firmaets mission er at konservering af ferskvare skal være nemt
-          og tilgængeligt hvor end man befinder sig, heraf deres produkt
-          Smokepins. Røgpinde i højkvalitet, håndlavet i Danmark.
-          <br /><br />
-          Firmaet er kendt for at have medvirket i Løvens Hule i 2019 og igen i
-          2020. Det var netop her vi opdagede firmaet og dens potentiale for
-          vores eksamensprojekt. Allerede fra første kontakt med Ole, vidste vi
-          at netop dette projekt havde en helt særlig mulighed for at imponere.
-          <br /><br />
-          Formålet med projektet var at skabe en solid brand identitet, som
-          derved kunne danne en genkendelighed blandt eksisterende og nye
-          kunder. Samt styrke brandet online på tværs af forskellige platforme.
-          <br /><br />
-          Efter eksamensprojektets afslutning, samarbejdede jeg fortsat på
-          freelance basis med Smokepins. Her viderearbejdede jeg blandt andet på
-          nogle ideer og grafikker fra selve eksamensprojektet.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
+          enim pellentesque sodales id. Donec convallis maecenas viverra
+          venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec
+          at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
+          lacinia eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit. Nunc nisl enim pellentesque sodales id. Donec convallis maecenas
+          viverra venenatis tincidunt consectetur pulvinar dignissim. Elit lacus
+          donec at auctor commodo, urna auctor quam. Dolor consequat, eget
+          elementum lacinia eleifend.
         </p>
       </div>
       <div>
         <img
-          src="../static/images/smokepins/Business_Card_Mockup_Smokepins.png"
-          alt="Smokepins business card mockup"
+          src="../static/images/country_wellness/country-wellness-business-card-mockup2.png"
+          alt="Country Wellness business card mockup"
         />
       </div>
     </section>
     <ProjectDetails
-      client="Smokepins ApS"
+      client="RePot ApS"
       :services="[
         'Rebranding',
         'Logo',
-        'UX & UI design',
-        'Markedsføring',
-        'Sociale medier',
+        'Website',
+        'Storyscaping - UX',
+        'Animations',
+        'Animations',
+        'Social Media',
       ]"
       :toolsSrc="[
         {
@@ -48,6 +42,14 @@
         },
         {
           src: require('../static/images/skills-icons/file-icons_adobe-illustrator.png'),
+        },
+
+        {
+          src: require('../static/images/skills-icons/file-icons_adobe-premiere.png'),
+        },
+
+        {
+          src: require('../static/images/skills-icons/file-icons_adobe-aftereffects.png'),
         },
         {
           src: require('../static/images/skills-icons/file-icons_adobe-xd.png'),
@@ -58,26 +60,32 @@
         {
           src: require('../static/images/skills-icons/akar-icons_css-fill.png'),
         },
+        {
+          src: require('../static/images/skills-icons/brandico_wordpress.png'),
+        },
       ]"
     />
 
-    <TwoRowsLayout_smokepins headingText="" />
+    <TwoRowsLayout_cw headingText="Design" />
   </div>
 </template>
-
 <script>
 import TextBox from '../components/textBox.vue'
 import ProjectDetails from '../components/projectDetails.vue'
-import TwoRowsLayout_smokepins from '../components/project_pages_components/PP_2_rows_smokepins.vue'
+import TwoRowsLayout_cw from '../components/project_pages_components/PP_2_rows_cw.vue'
+import Header from '~/components/header.vue'
 
 export default {
-  name: 'Smokepins',
+  name: 'CountryWellness',
   components: {
     TextBox,
     ProjectDetails,
-    TwoRowsLayout_smokepins,
+    TwoRowsLayout_cw,
+    Header,
   },
-  mounted() {},
+  mounted() {
+    window.scrollTo(0, 0)
+  },
 }
 </script>
 

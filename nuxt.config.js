@@ -30,6 +30,7 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/fontawesome',
+    'nuxt-gsap-module',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -46,6 +47,15 @@ export default {
   fontawesome: {
     icons: {
       solid: ['faBars', 'faXmark'],
+    },
+  },
+  gsap: {
+    extraPlugins: {
+      scrollTo: true,
+      scrollTrigger: true,
+    },
+    extraEases: {
+      expoScaleEase: true,
     },
   },
 

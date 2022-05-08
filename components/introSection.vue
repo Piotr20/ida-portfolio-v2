@@ -20,15 +20,14 @@ export default {
   name: 'IntroSection',
   props: {},
   mounted: function () {
-    // console.log('I work')
-    // gsap.from('.intro-anim', {
-    //   scrollTrigger: '#home', // start the animation when ".box" enters the viewport (once)
-    //   opacity: 0,
-    //   y: 30,
-    //   duration: 0.3,
-    //   stagger: 0.3,
-    //   ease: 'power1.inOut',
-    // })
+    this.$gsap.from('.intro-anim', {
+      scrollTrigger: '#home', // start the animation when ".box" enters the viewport (once)
+      opacity: 0,
+      y: 30,
+      duration: 0.3,
+      stagger: 0.3,
+      ease: 'power1.inOut',
+    })
   },
 }
 </script>

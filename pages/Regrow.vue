@@ -80,9 +80,7 @@ export default {
     ProjectDetails,
     TwoRowsLayout_regrow,
   },
-  mounted() {
-    window.scrollTo(0, 0)
-  },
+  mounted() {},
 }
 </script>
 
@@ -129,7 +127,7 @@ section.project-details {
 }
 @media only screen and (min-width: 1024px) {
   #spacer {
-    height: 12vh;
+    height: 9vh;
   }
   section.project-details {
     display: grid;

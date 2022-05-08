@@ -21,6 +21,7 @@
 
       <div class="cell-2">
         <video
+          id="video-1"
           src="../../static/images/regrow/It_is_your_time_ver1.mp4"
           controls
           autoplay
@@ -87,6 +88,52 @@ export default {
   name: 'TwoRowsLayout_smokepins',
   props: {
     headingText: String,
+  },
+  methods: {
+    playPauseVideo() {
+      let videos = document.querySelectorAll('#video-1')
+      videos.forEach((video) => {
+        // We can only control playback without insteraction if video is mute
+        video.muted = true
+        // Play is a promise so we need to check we have it
+        let playPromise = video.play()
+        if (playPromise !== undefined) {
+          playPromise.then((_) => {
+            let observer = new IntersectionObserver(
+              (entries) => {
+                entries.forEach((entry) => {
+                  if (entry.intersectionRatio !== 1 && !video.paused) {
+                    video.pause()
+                  } else if (video.paused) {
+                    video.play()
+                  }
+                })
+              },
+              { threshold: 0.2 }
+            )
+            observer.observe(video)
+          })
+        }
+      })
+    },
+  },
+  mounted() {
+    // And you would kick this off where appropriate with:
+    this.playPauseVideo()
+    this.$gsap.from('#video-1', {
+      scrollTrigger: {
+        trigger: '#video-1',
+        start: 'top 70%',
+      },
+      opacity: 0,
+      y: 30,
+      duration: 0.3,
+      stagger: 0.3,
+      ease: 'power1.inOut',
+      onEnter: ({ progress, direction, isActive }) => {
+        console.log(progress, direction, isActive)
+      },
+    })
   },
 }
 </script>

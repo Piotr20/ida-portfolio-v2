@@ -12,7 +12,9 @@
             at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
             lacinia eleifend.
           </p>
-          <NuxtLink class="project-4-anim" to="/">Se mere</NuxtLink>
+          <NuxtLink class="project-4-anim" to="/CountryWellness"
+            >Se mere</NuxtLink
+          >
         </div>
       </div>
       <div class="project project-2">
@@ -80,19 +82,48 @@
 </template>
 
 <script>
-// import { gsap } from 'gsap'
-// import { ScrollTrigger } from 'gsap/ScrollTrigger'
-
-// gsap.registerPlugin(ScrollTrigger)
 export default {
   name: 'ProjectsSection',
-  // methods: {
-  //   call() {
-  //     window.pageY = 0;
-  //   },
-  // },
+  methods: {
+    animateOnScroll() {
+      this.$gsap.from('.project-3-anim', {
+        opacity: 0,
+        y: 30,
+        duration: 0.3,
+        stagger: 0.3,
+        ease: 'power1.inOut',
+        scrollTrigger: {
+          trigger: '.project-3',
+          start: 'top 70%',
+        },
+      })
+      this.$gsap.from('.project-2-anim', {
+        scrollTrigger: {
+          trigger: '.project-2',
+          start: 'top 70%',
+        },
+        opacity: 0,
+        y: 30,
+        duration: 0.3,
+        stagger: 0.3,
+        ease: 'power1.inOut',
+      })
+      this.$gsap.from('.project-4-anim', {
+        scrollTrigger: {
+          trigger: '.project-4',
+          start: 'top 70%',
+        },
+        opacity: 0,
+        y: 30,
+        duration: 0.3,
+        stagger: 0.3,
+        ease: 'power1.inOut',
+      })
+    },
+  },
   mounted: function () {
-    // gsap.from('.project-1-anim', {
+    this.animateOnScroll()
+    // $gsap.from('.project-1-anim', {
     //   scrollTrigger: {
     //     trigger: '.project-1',
     //     start: 'top 70%',
@@ -103,7 +134,7 @@ export default {
     //   stagger: 0.3,
     //   ease: 'power1.inOut',
     // })
-    // gsap.from('.project-2-anim', {
+    // $gsap.from('.project-2-anim', {
     //   scrollTrigger: {
     //     trigger: '.project-2',
     //     start: 'top 70%',
@@ -114,7 +145,7 @@ export default {
     //   stagger: 0.3,
     //   ease: 'power1.inOut',
     // })
-    // gsap.from('.project-3-anim', {
+    // $gsap.from('.project-3-anim', {
     //   scrollTrigger: {
     //     trigger: '.project-3',
     //     start: 'top 70%',
@@ -125,7 +156,7 @@ export default {
     //   stagger: 0.3,
     //   ease: 'power1.inOut',
     // })
-    // gsap.from('.project-4-anim', {
+    // $gsap.from('.project-4-anim', {
     //   scrollTrigger: {
     //     trigger: '.project-4',
     //     start: 'top 70%',
@@ -136,7 +167,7 @@ export default {
     //   stagger: 0.3,
     //   ease: 'power1.inOut',
     // })
-    // gsap.from('.project-5-anim', {
+    // $gsap.from('.project-5-anim', {
     //   scrollTrigger: {
     //     trigger: '.project-5',
     //     start: 'top 70%',

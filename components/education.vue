@@ -79,17 +79,17 @@ export default {
     SideHeading,
   },
   mounted: function () {
-    // gsap.from(".education-anim", {
-    //   scrollTrigger: {
-    //     trigger: "#education",
-    //     start: "top 70%",
-    //   },
-    //   opacity: 0,
-    //   y: 30,
-    //   duration: 0.3,
-    //   stagger: 0.3,
-    //   ease: "power1.inOut",
-    // });
+    this.$gsap.from('.education-anim', {
+      scrollTrigger: {
+        trigger: '#education',
+        start: 'top 70%',
+      },
+      opacity: 0,
+      y: 30,
+      duration: 0.3,
+      stagger: 0.3,
+      ease: 'power1.inOut',
+    })
   },
 }
 </script>

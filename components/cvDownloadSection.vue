@@ -11,17 +11,17 @@
 export default {
   name: 'CvDownloadSection',
   mounted: function () {
-    // gsap.from(".cv-anim", {
-    //   scrollTrigger: {
-    //     trigger: "#cv",
-    //     start: "top 70%",
-    //   },
-    //   opacity: 0,
-    //   y: 30,
-    //   duration: 0.3,
-    //   stagger: 0.3,
-    //   ease: "power1.inOut",
-    // });
+    this.$gsap.from('.cv-anim', {
+      scrollTrigger: {
+        trigger: '#cv',
+        start: 'top 70%',
+      },
+      opacity: 0,
+      y: 30,
+      duration: 0.3,
+      stagger: 0.3,
+      ease: 'power1.inOut',
+    })
   },
 }
 </script>

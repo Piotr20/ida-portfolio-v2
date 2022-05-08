@@ -94,17 +94,17 @@
 export default {
   name: 'TechnicalSkills',
   mounted: function () {
-    // gsap.from(".technical-skills-anim", {
-    //   scrollTrigger: {
-    //     trigger: "#technical-skills",
-    //     start: "top 70%",
-    //   },
-    //   opacity: 0,
-    //   y: 30,
-    //   duration: 0.3,
-    //   stagger: 0.15,
-    //   ease: "power1.inOut",
-    // });
+    this.$gsap.from('.technical-skills-anim', {
+      scrollTrigger: {
+        trigger: '#technical-skills',
+        start: 'top 70%',
+      },
+      opacity: 0,
+      y: 30,
+      duration: 0.3,
+      stagger: 0.15,
+      ease: 'power1.inOut',
+    })
   },
 }
 </script>

@@ -14,14 +14,14 @@
 export default {
   name: 'Contact',
   mounted: function () {
-    // gsap.from(".contact-anim", {
-    //   scrollTrigger: "#contact",
-    //   opacity: 0,
-    //   y: 30,
-    //   duration: 0.3,
-    //   stagger: 0.3,
-    //   ease: "power1.inOut",
-    // });
+    this.$gsap.from('.contact-anim', {
+      scrollTrigger: '#contact',
+      opacity: 0,
+      y: 30,
+      duration: 0.3,
+      stagger: 0.3,
+      ease: 'power1.inOut',
+    })
   },
 }
 </script>
