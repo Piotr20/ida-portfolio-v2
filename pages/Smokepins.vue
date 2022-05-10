@@ -58,6 +58,12 @@
         {
           src: require('../static/images/skills-icons/akar-icons_css-fill.png'),
         },
+        {
+          src: require('../static/images/skills-icons/facebook-icon.png'), 
+        },
+        {
+          src: require('../static/images/skills-icons/instagram-icon.png'), 
+        },
       ]"
     />
 
