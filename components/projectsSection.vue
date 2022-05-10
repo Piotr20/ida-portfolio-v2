@@ -206,7 +206,7 @@ section {
     z-index: 1;
   }
   &:nth-of-type(1) .background-container {
-    background-image: url('../static/images/billig_animation/business_card_mockup_billiganimation.png');
+    background-image: url('../static/images/country_wellness/country-wellness-business-card-mockup2.png');
     background-repeat: no-repeat;
     background-size: cover;
   }

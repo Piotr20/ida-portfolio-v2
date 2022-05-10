@@ -5,6 +5,7 @@
       <a class="contact-anim" href="mailto:Ida.skjodt@gmail.com"
         >Ida.skjodt@gmail.com</a>
       <a class="contact-anim" href="tel:+4540238003">+45 40 23 80 03</a>
+      <img src="../static/images/skills-icons/linkedin-icon.png" alt="linkedin">
       <a class="contact-anim" href="https://www.linkedin.com/in/ida-so/" target="_blank">LinkedIn</a>
     </div>
   </section>

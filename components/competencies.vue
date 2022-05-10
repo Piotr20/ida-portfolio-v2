@@ -83,7 +83,7 @@ section {
   position: relative;
   h3 {
     color: white;
-    font-size: 16px;
+    font-size: 16px; //make this smaller -------------
   }
   span {
     font-size: 80px;
@@ -104,7 +104,7 @@ ul {
   color: white;
   text-align: left;
   padding: 32px 0;
-  font-size: 18px;
+  font-size: 16px; //make this smaller -------------
   padding-left: 18px;
   li {
     padding: 12px 0;
@@ -138,7 +138,7 @@ ul {
     width: 45%;
     padding: 100px 64px;
     h3 {
-      font-size: 32px;
+      font-size: 22px; //make this smaller -------------
     }
     span {
       font-size: 144px;
@@ -153,7 +153,7 @@ ul {
     }
   }
   ul {
-    font-size: 24px;
+    font-size: 22px; //make this smaller -------------
     li {
       padding: 20px 0;
     }

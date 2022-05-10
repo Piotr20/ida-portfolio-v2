@@ -63,6 +63,12 @@
         {
           src: require('../static/images/skills-icons/brandico_wordpress.png'),
         },
+        {
+          src: require('../static/images/skills-icons/facebook-icon.png'), 
+        },
+        {
+          src: require('../static/images/skills-icons/instagram-icon.png'), 
+        },
       ]"
     />
 
