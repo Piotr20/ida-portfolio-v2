@@ -36,7 +36,7 @@
     "@nuxtjs/fontawesome": "^1.1.2",
     "@nuxtjs/tailwindcss": "^4.2.1",
     "eslint-config-prettier": "^8.3.0",
-    "husky": "^7.0.4",
+    "husky": "^8.0.1",
     "lint-staged": "^12.1.2",
     "nuxt-gsap-module": "^1.7.0",
     "postcss": "^8.4.4",
