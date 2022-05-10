@@ -6,11 +6,10 @@
         <div class="content-contaienr">
           <h2 class="project-4-anim">Country Wellness</h2>
           <p class="project-4-anim">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
-            enim pellentesque sodales id. Donec convallis maecenas viverra
-            venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec
-            at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
-            lacinia eleifend.
+            En bekendt rakte ud til mig idet hun var igang med at opstarte sin egen virksomhed 
+            og derfor skulle til at skabe 'et brand'. Kunden har ingen tideligere erfaring med marketing, 
+            og er ikke teknisk stærk, det var her jeg kom ind i billedet. Det har været spændende og udfordrende 
+            at være med helt fra den spæde start af at skabe 'et brand' og at kunne følge udviklingen.
           </p>
           <NuxtLink class="project-4-anim" to="/CountryWellness"
             >Se mere</NuxtLink
@@ -36,11 +35,11 @@
         <div class="content-contaienr">
           <h2 class="project-3-anim">ReGrow</h2>
           <p class="project-3-anim">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
-            enim pellentesque sodales id. Donec convallis maecenas viverra
-            venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec
-            at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
-            lacinia eleifend.
+            Delvist gruppe eksamensprojekt med Repot ApS som kunde. 
+            Storyscaping konceptet var omdrejningspunktet for projektet, 
+            hvilket var en anderledes tilgang som skabte nye tankegange og anderledes ideer. 
+            Projektet var delt i to eksamensprojekter, 
+            hvilket gjorde det muligt virkelig at arbejde i dybden.
           </p>
           <NuxtLink class="project-3-anim" to="/Regrow">Se mere</NuxtLink>
         </div>

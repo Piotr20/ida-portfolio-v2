@@ -3,17 +3,19 @@
     <h2 class="about-me-anim">{{ headingText }}</h2>
     <div class="grid-container">
       <div class="cell-1">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-        eius repellat voluptas obcaecati fuga distinctio voluptatum fugiat quasi
-        maxime! Ea.
       </div>
+
       <div class="cell-2">
-        <img src="../../static/images/logo.png" alt="" />
+        <img src="../../static/images/country_wellness/country-wellness-business-card-mockup.png" alt="" />
       </div>
-      <div class="cell-3">3 rem ipsum dolor sit amet consec</div>
+
+      <div class="cell-3"></div>
+
       <div class="cell-4">
-        <img src="../../static/images/logo.png" alt="" />
+        <img src="" alt="" />
       </div>
+
+      <div class="cell-5"></div>
     </div>
   </section>
 </template>

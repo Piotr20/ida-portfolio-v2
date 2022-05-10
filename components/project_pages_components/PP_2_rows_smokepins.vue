@@ -2,21 +2,15 @@
   <section id="2-rows-grid">
     <h2 class="about-me-anim">Design og visuel identitet</h2>
 
-    <!-- i need multiple headings, you made it weird -->
-
     <div class="grid-container">
       <div class="cell-1">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-          eius repellat voluptas obcaecati fuga distinctio voluptatum fugiat
-          quasi maxime! Ea.
-          <br /><br />
-          We created a unique visual identity that carried through all. aspects
+          <!-- We created a unique visual identity that carried through all. aspects
           of the business distingushes Smokepins ApS from other competitiors
           making their brand memorable. This project was not. as much for a
           coding as it was rather for design and marketing. Even though it was
           not very code-wise project we included. several immersive effects like
-          e. g. lines drawing on scroll.
+          e. g. lines drawing on scroll. -->
         </p>
       </div>
       <div class="cell-2">
@@ -39,6 +33,8 @@
 
         <h2 class="about-me-anim">Logo design</h2>
         <br />
+        <img src="../../static/images/smokepins/cards-mockups-smokepins.png"
+          alt="Smokepins logo"/>
       </div>
       <div class="cell-6"></div>
       <div class="cell-7">
