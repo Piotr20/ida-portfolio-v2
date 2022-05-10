@@ -52,6 +52,9 @@ section {
       transform: translate(-50%, -50%);
     }
   }
+  img {
+    width: 20%; // Here is styling to linkedin icon. maybe fix size
+  }
 }
 .links-container {
   margin-top: 48px;
