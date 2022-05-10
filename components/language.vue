@@ -18,7 +18,7 @@
     >
     <div class="flags-container">
       <div class="language-anim">
-        <img src="../static/images/flag-uk.png" alt="Danish flag" />
+        <img src="../static/images/flag-dk.png" alt="Danish flag" />
         <div>
           <span>DANSK</span><br /><span>
             <ul>
@@ -31,7 +31,7 @@
         </div>
       </div>
       <div class="language-anim">
-        <img src="../static/images/flag-dk.png" alt="British flag" />
+        <img src="../static/images/flag-uk.png" alt="British flag" />
 
         <div>
           <span>ENGELSK</span> <br /><span>
@@ -99,6 +99,7 @@ section {
     color: white;
     font-size: 18px;
     width: 100%;
+    text-align: center; //Check if this works!!
   }
 }
 .flags-container {
