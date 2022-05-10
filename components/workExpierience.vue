@@ -4,11 +4,26 @@
       <div class="side-box-container">
         <SideHeading title="Arbejdserfaring" />
       </div>
-
+<div class="work-expierience-box work-expierience-anim">
+        <h2>BILLIG ANIMATION</h2>
+        <h3>Digital Designer</h3>
+        <span>August 2021 - September 2021</span>
+        <ul>
+          <li>
+            Udarbejdelse af animationsfilm og explainer videoer, herunder også illustrationer
+          </li>
+          <li>
+            Kundehåndtering fra start til slut af projektet, herunder dialog og mail korrespondance.
+          </li>
+          <li>
+            Kreativ formidling og idéudvikling af budskab til storyline
+          </li>
+        </ul>
+      </div>
       <div class="work-expierience-box work-expierience-anim">
         <h2>BILLUND LUFTHAVN</h2>
-        <h3>Maj 2019 - September 2021</h3>
-        <span>Kasseassistent i Sales</span>
+        <h3>Kasseassistent i Sales</h3>
+        <span>Maj 2019 - September 2021</span>
         <ul>
           <li>
             At kunne holde et overblik i pressede situationer, samt at levere en
@@ -28,8 +43,8 @@
 
       <div class="work-expierience-box work-expierience-anim">
         <h2>MENY SØNDER OMME</h2>
-        <h3>Juni 2014 - August 2021</h3>
-        <span>Service medarbejder</span>
+        <h3>Service medarbejder</h3>
+        <span>Juni 2014 - August 2021</span>
         <ul>
           <li>
             Ansvarlig for at butikken i aftentimerne, samt at kunne håndtere og
@@ -45,8 +60,8 @@
 
       <div class="work-expierience-box work-expierience-anim">
         <h2>VIRAL FILM / BILLIG ANIMATION</h2>
-        <h3>Januar 2021 - April 2021</h3>
-        <span>Motion Graphics praktikant</span>
+        <h3>Motion Graphics praktikant</h3>
+        <span>Januar 2021 - April 2021</span>
         <ul>
           <li>
             Jeg har gennem praktikken været en del af den overordnede

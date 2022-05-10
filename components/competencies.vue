@@ -14,15 +14,12 @@
       </div>
 
       <ul>
-        <li class="competencies-anim">Organisering & planlægning</li>
-        <li class="competencies-anim">Pligtopfyldende & pålidelig</li>
-        <li class="competencies-anim">Smilende & positiv</li>
+        <li class="competencies-anim">Organisering</li>
+        <li class="competencies-anim">Pligtopfyldende</li>
+        <li class="competencies-anim">Smilende</li>
         <li class="competencies-anim">Detaljeorienteret</li>
-        <li class="competencies-anim">Service minded</li>
-        <li class="competencies-anim">Kendskab til kundehåndtering</li>
-        <li class="competencies-anim">
-          Gode kommunikations egenskaber internationalt
-        </li>
+        <li class="competencies-anim">Serviceminded</li>
+        <li class="competencies-anim">International kommunikation</li>
       </ul>
     </div>
   </section>
@@ -86,7 +83,7 @@ section {
   position: relative;
   h3 {
     color: white;
-    font-size: 18px;
+    font-size: 16px;
   }
   span {
     font-size: 80px;
