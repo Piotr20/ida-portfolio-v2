@@ -21,7 +21,7 @@
       </div>
       <div class="cell-3">
         <img
-          src="../../static/images/smokepins/smokepins-closedbox.png"
+          src=""
           alt="Smokepins box closed"
         />
       </div>
@@ -33,7 +33,7 @@
 
         <h2 class="about-me-anim">Logo design</h2>
         <br />
-        <img src="../../static/images/smokepins/cards-mockups-smokepins.png"
+        <img src=""
           alt="Smokepins logo"/>
       </div>
       <div class="cell-6"></div>
@@ -47,9 +47,8 @@
       </div>
       <div class="cell-8">
         <img
-          src="../../static/images/smokepins/smokepins-logo-all.png"
-          alt="Smokepins logo"
-        />
+          src=""
+          alt="Smokepins logo"/>
       </div>
     </div>
   </section>
