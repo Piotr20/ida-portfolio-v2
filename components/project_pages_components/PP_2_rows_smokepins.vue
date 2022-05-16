@@ -13,41 +13,44 @@
           e. g. lines drawing on scroll. -->
         </p>
       </div>
-
       <div class="cell-2">
         <img
-          src="../../static/images/smokepins/smokepins-styletile.png"
-          alt="Smokepins styletile"/>
+          src=""
+          alt="Smokepins styletile"
+        />
       </div>
-
       <div class="cell-3">
         <img
           src=""
-          alt=""/>
+          alt="Smokepins box closed"
+        />
       </div>
       <div class="cell-4"></div>
-
       <div class="cell-5 heading-cell">
         <br /><br />
+
+        <!-- i need multiple headings, you made it weird -->
+
         <h2 class="about-me-anim">Logo design</h2>
         <br />
-        <img src="../../static/images/smokepins/Business_Card_Mockup_Smokepins.png"
+        <img src=""
           alt="Smokepins logo"/>
       </div>
-
       <div class="cell-6"></div>
-
       <div class="cell-7">
         <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+          recusandae distinctio vel eos, nemo eum perferendis temporibus minima
+          quam odit, rerum obcaecati est similique qui? Eveniet magni eum odit
+          sapiente.
         </p>
       </div>
-
       <div class="cell-8">
         <img
-          src=""
-          alt="Smokepins logo"/>
+          src="../../static/images/smokepins/smokepins-logo-all.png"
+          alt="Smokepins logo"
+        />
       </div>
-
     </div>
   </section>
 </template>

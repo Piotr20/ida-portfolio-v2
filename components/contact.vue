@@ -5,8 +5,9 @@
       <a class="contact-anim" href="mailto:Ida.skjodt@gmail.com"
         >Ida.skjodt@gmail.com</a>
       <a class="contact-anim" href="tel:+4540238003">+45 40 23 80 03</a>
+      <a class="linkedin-logo" href="https://www.linkedin.com/in/ida-so/">
       <img src="../static/images/skills-icons/linkedin-icon.png" alt="linkedin">
-      <a class="contact-anim" href="https://www.linkedin.com/in/ida-so/" target="_blank">LinkedIn</a>
+      </a>
     </div>
   </section>
 </template>
@@ -52,14 +53,15 @@ section {
       transform: translate(-50%, -50%);
     }
   }
-  img {
-    width: 20%; // Here is styling to linkedin icon. maybe fix size
-  }
 }
 .links-container {
   margin-top: 48px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  .linkedin-logo {
+    width: 40px;
+  }
   a {
     color: white;
     font-size: 20px;
