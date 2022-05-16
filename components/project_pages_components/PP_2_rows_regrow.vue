@@ -24,26 +24,95 @@
       <div class="cell-2">
         <video
           id="video-1"
-          src="../../static/images/regrow/It_is_your_time_ver1.mp4"
+          src="../../static/images/regrow/choose-repot.mp4"
           controls
           autoplay
           loop
         ></video>
       </div>
+      
+
+      <!-- <h2 class="about-me-anim">Visuelt udtryk</h2> --> 
 
       <div class="cell-3">
-        <h2 class="about-me-anim">Visuelt udtryk</h2>
-        <img src="../../static/images/regrow/cards-mockups.png" alt="" />
-        <br />
+        <img src="../../static/images/regrow/styletile_regrow_ver2.png" alt="Styletile Regrow Ver 2" />
       </div>
 
       <div class="cell-4">
         <img
-          src="../../static/images/regrow/styletile_regrow_ver2.png"
-          alt="Styletile Regrow Ver 2"/>
+          src="../../static/images/regrow/cards-mockup.png"
+          alt="Regrow logos"/>
       </div>
 
       <div class="cell-5">
+        <video
+          id="video-2"
+          src="../../static/images/regrow/planet-drip-bw.mp4"
+          controls
+          autoplay
+          loop
+          muted
+        ></video>
+        <video
+          id="video-2"
+          src="../../static/images/regrow/planet-drip.mp4"
+          controls
+          autoplay
+          loop
+          muted
+        ></video>
+      </div>
+
+      <div class="cell-6">
+        <img src="../../static/images/regrow/regrow-pot.png" alt="Regrow pot illu." />
+        <img src="../../static/images/regrow/repot-plant.png" alt="Regrow pot illu." />
+      </div>
+
+<!-- <h2 class="about-me-anim">SoMe content</h2> --> 
+
+      <div class="cell-7">
+        <p>
+          REGULAR POSTS <!-- SoMe agenda -->
+        </p>
+      </div>
+      <div class="cell-7">
+        <img src="../../static/images/regrow/some/regular-post.png" alt="">
+        <img src="../../static/images/regrow/some/regular-story.png" alt="">
+      </div>
+
+      <div class="cell-7">
+        <p>
+          FRIDAY FACTS<!-- some text here. FB instant, insta story, regurla posts, cross platform -->
+        </p>
+        <img src="../../static/images/regrow/some/friday-facts-all.png" alt="">
+      </div>
+
+      <div class="cell-8">
+        <img src="../../static/images/regrow/some/friday-fact67.png" alt="">
+        <br>
+        <img src="../../static/images/regrow/some/friday-fact68.png" alt="">
+      </div>
+
+      <div class="cell-8">
+        <p>
+          FACEBOOK INSTANT <!-- some text here. FB instant, insta story, regurla posts, cross platform -->
+          </p>
+        
+          <img src="../../static/images/regrow/some/fb-instant.png" alt="">
+      </div>
+      <div class="cell-8">
+        <video
+          id="video-2"
+          src="../../static/images/regrow/some/fb-instant-experience.mp4"
+          controls
+          autoplay
+          loop
+          muted
+        ></video>
+      </div>
+
+
+      <div class="cell-9">
         <h2 class="about-me-anim">Website</h2>
         <div class="mockups-wrapper">
           <img
@@ -58,15 +127,6 @@
         </div>
       </div>
 
-      <div class="cell-6"></div>
-      <div class="cell-7"></div>
-      <div class="cell-8"></div>
-      <div class="cell-9"></div>
-      <div class="cell-10"></div>
-      <div class="cell-11"></div>
-      <div class="cell-12"></div>
-      <div class="cell-13"></div>
-      <div class="cell-14"></div>
     </div>
   </section>
 </template>
@@ -169,14 +229,22 @@ h2 {
     } //the type is reffering to which grid box
     // 4th you dumbass :)
   }
+  p{ //correct me here, i need styling on the p tag
+  padding-top: 32px;
+    font-size: 16px;
+    text-align: left;
+    color: #95867d;
+    padding: 0 32px 0 0;
+    }
   .cell-2 {
+    vertical-align: top;
     video {
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
   }
-  .cell-5 {
+  .cell-9 {
     .mockups-wrapper {
       padding-top: 12px;
     }
@@ -184,8 +252,7 @@ h2 {
   img {
     width: 100%;
   }
-  /* fix image styling on all project pages */
-  //tempoary thing i did to style image
+
 }
 @media only screen and (min-width: 1024px) {
   section {
@@ -195,7 +262,7 @@ h2 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     padding: 48px 0;
-    .cell-5 {
+    .cell-9 {
       grid-column: 1/3;
       .mockups-wrapper {
         display: grid;
@@ -209,11 +276,15 @@ h2 {
     text-align: left;
     font-size: 32px;
     padding-bottom: 14px;
+    height: 80px; //temporaryly trying to fix, why it automatically is so high??
     &::after {
       transform: translateX(0);
       left: 0;
       width: 4%;
     }
   }
+  .cell-2 {
+    padding: 0 120px 0 120px;
+    }
 }
 </style>
