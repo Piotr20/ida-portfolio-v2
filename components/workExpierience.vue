@@ -59,7 +59,7 @@
       </div>
 
       <div class="work-expierience-box work-expierience-anim">
-        <h2>VIRAL FILM / BILLIG ANIMATION</h2>
+        <h2>BILLIG ANIMATION / VIRAL FILM</h2>
         <h3>Motion Graphics praktikant</h3>
         <span>Januar 2021 - April 2021</span>
         <ul>
@@ -182,7 +182,7 @@ section {
     }
   }
   .side-box-container {
-    grid-row: 1/4;
+    grid-row: 1/5;
   }
   .work-expierience-box {
     height: 100%;

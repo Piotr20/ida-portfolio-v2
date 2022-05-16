@@ -126,13 +126,13 @@ ul {
     }
   }
   .flex-wrapper {
-    padding: 64px 0;
+    padding: 20px 0;
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 40px;
   }
   .quote-container {
     width: 45%;

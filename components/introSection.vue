@@ -41,6 +41,7 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  text-align: center;
   video {
     width: 100%;
     height: 100%;
