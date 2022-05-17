@@ -193,7 +193,7 @@ export default {
   },
   mounted() {
     // And you would kick this off where appropriate with:
-    this.playPauseVideo()
+
     this.$gsap.from('#video-1', {
       scrollTrigger: {
         trigger: '#video-1',
