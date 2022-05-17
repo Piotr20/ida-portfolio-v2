@@ -25,6 +25,7 @@
           id="video-1"
           src="../../static/images/regrow/choose-repot.mp4"
           controls
+          autoplay
           loop
         ></video>
       </div>
@@ -66,6 +67,7 @@
           id="video-2"
           src="../../static/images/regrow/planet-drip-bw.mp4"
           controls
+          autoplay
           loop
           muted
         ></video>
@@ -73,6 +75,7 @@
           id="video-2"
           src="../../static/images/regrow/planet-drip.mp4"
           controls
+          autoplay
           loop
           muted
         ></video>
@@ -129,6 +132,7 @@
           id="video-3"
           src="../../static/images/regrow/some/fb-instant-experience.mp4"
           controls
+          autoplay
           loop
           muted
         ></video>
@@ -193,7 +197,7 @@ export default {
   },
   mounted() {
     // And you would kick this off where appropriate with:
-
+    this.playPauseVideo()
     this.$gsap.from('#video-1', {
       scrollTrigger: {
         trigger: '#video-1',
