@@ -1,7 +1,6 @@
 <template>
   <section id="2-rows-grid">
     <h2 class="about-me-anim">Brandets budskab</h2>
-
     <div class="grid-container">
       <div class="cell-1">
         <p>
@@ -30,10 +29,11 @@
           loop
         ></video>
       </div>
-      
+    </div>
 
-      <!-- <h2 class="about-me-anim">Visuelt udtryk</h2> --> 
 
+    <h2 class="about-me-anim">Visuelt udtryk</h2>
+    <div class="grid-container">
       <div class="cell-3">
         <img src="../../static/images/regrow/styletile_regrow_ver2.png" alt="Styletile Regrow Ver 2" />
       </div>
@@ -43,8 +43,20 @@
           src="../../static/images/regrow/cards-mockup.png"
           alt="Regrow logos"/>
       </div>
+    </div>
 
+
+    <h2 class="about-me-anim">Content</h2>
+    <div class="grid-container">
       <div class="cell-5">
+
+      </div>
+
+      <div class="cell-6">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/25fSSF-xC6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="cell-7">
         <video
           id="video-2"
           src="../../static/images/regrow/planet-drip-bw.mp4"
@@ -62,47 +74,49 @@
           muted
         ></video>
       </div>
-
-      <div class="cell-6">
+ 
+      <div class="cell-8">
         <img src="../../static/images/regrow/regrow-pot.png" alt="Regrow pot illu." />
         <img src="../../static/images/regrow/repot-plant.png" alt="Regrow pot illu." />
       </div>
+    </div>
 
-<!-- <h2 class="about-me-anim">SoMe content</h2> --> 
 
-      <div class="cell-7">
+    <h2 class="about-me-anim">SoMe content</h2>
+    <div class="grid-container">
+      <div class="cell-9">
         <p>
-          REGULAR POSTS <!-- SoMe agenda -->
+          REGULAR POSTS, SoMe agenda
         </p>
       </div>
-      <div class="cell-7">
+      <div class="cell-10">
         <img src="../../static/images/regrow/some/regular-post.png" alt="">
         <img src="../../static/images/regrow/some/regular-story.png" alt="">
       </div>
 
-      <div class="cell-7">
+      <div class="cell-11">
         <p>
           FRIDAY FACTS<!-- some text here. FB instant, insta story, regurla posts, cross platform -->
         </p>
         <img src="../../static/images/regrow/some/friday-facts-all.png" alt="">
       </div>
 
-      <div class="cell-8">
+      <div class="cell-12">
         <img src="../../static/images/regrow/some/friday-fact67.png" alt="">
-        <br>
         <img src="../../static/images/regrow/some/friday-fact68.png" alt="">
       </div>
 
-      <div class="cell-8">
+      <div class="cell-13">
         <p>
           FACEBOOK INSTANT <!-- some text here. FB instant, insta story, regurla posts, cross platform -->
           </p>
         
           <img src="../../static/images/regrow/some/fb-instant.png" alt="">
       </div>
-      <div class="cell-8">
+
+      <div class="cell-14">
         <video
-          id="video-2"
+          id="video-3"
           src="../../static/images/regrow/some/fb-instant-experience.mp4"
           controls
           autoplay
@@ -110,10 +124,11 @@
           muted
         ></video>
       </div>
+    </div>
 
-
-      <div class="cell-9">
-        <h2 class="about-me-anim">Website</h2>
+    <h2 class="about-me-anim">Website</h2>
+    <div class="grid-container">
+      <div class="cell-15">
         <div class="mockups-wrapper">
           <img
             src="../../static/images/regrow/mockup-frontpage.png"
@@ -126,7 +141,6 @@
             alt="mockup about us"/>
         </div>
       </div>
-
     </div>
   </section>
 </template>
@@ -222,12 +236,11 @@ h2 {
       justify-content: center;
       align-items: center;
     }
-    &:nth-of-type(4) {
+    &:nth-of-type(4) { //wHAT IS THIS ACTUALLY DOING
       display: flex;
       justify-content: center;
       align-items: center;
     } //the type is reffering to which grid box
-    // 4th you dumbass :)
   }
   p{ //correct me here, i need styling on the p tag
   padding-top: 32px;
@@ -244,7 +257,7 @@ h2 {
       object-fit: cover;
     }
   }
-  .cell-9 {
+  .cell-15 {
     .mockups-wrapper {
       padding-top: 12px;
     }
@@ -252,8 +265,8 @@ h2 {
   img {
     width: 100%;
   }
-
 }
+
 @media only screen and (min-width: 1024px) {
   section {
     padding: 64px;
@@ -262,7 +275,7 @@ h2 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     padding: 48px 0;
-    .cell-9 {
+    .cell-15 {
       grid-column: 1/3;
       .mockups-wrapper {
         display: grid;
@@ -284,7 +297,37 @@ h2 {
     }
   }
   .cell-2 {
-    padding: 0 120px 0 120px;
+    #video-1{
+      width: 60%;
+      margin: auto;
     }
+    }
+  .cell-7 {
+    video{
+      width: 50%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .cell-8,.cell-7,.cell-10,.cell-12 {
+    display: flex;
+    img {
+      width: 50%;
+    }
+  }
+  .cell-12 {
+    flex-direction: column;
+    img {
+      width: 80%;
+      padding-bottom: 10px;
+    }
+  }
+  
+  .cell-14 {
+    #video-3{
+      width: 40%;
+      margin: auto;
+    }
+  }
 }
 </style>

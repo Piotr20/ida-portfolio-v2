@@ -12,11 +12,15 @@
           at sælge 100% bionedbrydelige potter, samt at skabe opmærksomhed
           omkring bæredygtig udvikling og oprette et community omkring dette.
           <br /><br />
-          Projektet havde til formål at skabe et solidt fundament for
+          Projektet var opdelt i to, første del var et gruppeprojekt, som havde til formål at skabe et solidt fundament for
           virksomhedens fremtid gennem ’Storyscaping’ konceptet. Dette indebærer
           at kreere et univers med fordybende oplevelser som kan skabe en
           relation mellem brandet og kunden, som giver emotionel engageret
-          kunder som afkast.
+          kunder som afkast. Hjemmesiden blev en base for mange af disse elementer.
+          <br><br>
+          Anden del af projektet foregik individuelt, hvoraf formålet var et skabe relevant content i
+          relation til den forrige del af projektet. Her var der især fokus på Facebook og Instagram, 
+          hvor der blev arbejdet med Facebook Business Suit.
         </p>
       </div>
       <div>
