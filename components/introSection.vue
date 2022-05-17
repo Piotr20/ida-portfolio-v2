@@ -1,6 +1,6 @@
 <template>
   <section id="home">
-    <video src="../static/videos/video_intro.mp4" loop muted />
+    <video src="../static/videos/video_intro.mp4" autoplay loop muted />
     <div class="viedo-overlay"></div>
     <div class="overlay">
       <h1 class="intro-anim">Halløj!</h1>
