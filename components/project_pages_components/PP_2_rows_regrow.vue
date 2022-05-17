@@ -274,6 +274,12 @@ h2 {
       width: 100%;
     }
   }
+  .cell-6 {
+    iframe {
+      width: 100%;
+      aspect-ratio: 16/9;
+    }
+  }
 
   .cell-7 {
     display: flex;
