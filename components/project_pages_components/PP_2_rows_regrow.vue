@@ -54,8 +54,6 @@
 
       <div class="cell-6">
         <iframe
-          width="100%"
-          height="100%"
           src="https://www.youtube.com/embed/25fSSF-xC6o"
           title="YouTube video player"
           frameborder="0"
@@ -274,12 +272,20 @@ h2 {
     vertical-align: top;
     video {
       width: 100%;
-      height: 100%;
-      object-fit: cover;
+    }
+  }
+
+  .cell-7 {
+    display: flex;
+    video {
+      max-width: 50%;
     }
   }
   .cell-8 {
-    flex-direction: column;
+    display: flex;
+    img {
+      width: 50% !important;
+    }
   }
   .cell-10 {
     flex-direction: column;
@@ -309,7 +315,9 @@ h2 {
       flex-direction: row;
     }
     .cell-10 {
-      flex-direction: row;
+      img {
+        width: 100%;
+      }
     }
     .cell-15 {
       grid-column: 1/3;
