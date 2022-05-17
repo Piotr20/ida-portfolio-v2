@@ -293,9 +293,18 @@ h2 {
   .cell-12 {
     flex-direction: column;
   }
+  .cell-14{
+    video{
+      width: 80%;
+      margin: auto;
+    }
+  }
   .cell-15 {
     .mockups-wrapper {
       padding-top: 12px;
+      img {
+        padding-bottom: 20px;
+      }
     }
   }
   img {
