@@ -1,8 +1,9 @@
 <template>
   <section>
     <div class="grid-container">
+      <!-- 
       <div class="project project-4">
-        <div class="background-container"></div>
+        <div class="background-container cw-img"></div>
         <div class="content-contaienr">
           <h2 class="project-4-anim">Country Wellness</h2>
           <p class="project-4-anim">
@@ -12,12 +13,13 @@
             at være med helt fra den spæde start af at skabe 'et brand' og at kunne følge udviklingen.
           </p>
           <NuxtLink class="project-4-anim" to="/CountryWellness"
-            >Se mere</NuxtLink
-          >
+            >Se mere</NuxtLink>
         </div>
       </div>
+ -->
+ <!-- 
       <div class="project project-2">
-        <div class="background-container"></div>
+        <div class="background-container smokepins-img"></div>
         <div class="content-contaienr">
           <h2 class="project-2-anim">Smokepins</h2>
           <p class="project-2-anim">
@@ -30,8 +32,9 @@
           <NuxtLink class="project-2-anim" to="/Smokepins">Se mere</NuxtLink>
         </div>
       </div>
+ -->
       <div class="project project-3">
-        <div class="background-container"></div>
+        <div class="background-container regrow-img"></div>
         <div class="content-contaienr">
           <h2 class="project-3-anim">ReGrow</h2>
           <p class="project-3-anim">
@@ -205,17 +208,17 @@ section {
     background-position: center;
     z-index: 1;
   }
-  &:nth-of-type(1) .background-container {
+ .background-container,.cw-img {
     background-image: url('../static/images/country_wellness/country-wellness-business-card-mockup2.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
-  &:nth-of-type(2) .background-container {
+    .background-container,.smokepins-img {
     background-image: url('../static/images/smokepins/Business_Card_Mockup_Smokepins.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
-  &:nth-of-type(3) .background-container {
+    .background-container,.regrow-img {
     background-image: url('../static/images/regrow/regrow_business_card_mockup2.png');
     background-repeat: no-repeat;
     background-size: cover;
