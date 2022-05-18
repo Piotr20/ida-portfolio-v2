@@ -50,7 +50,7 @@
 
     <h2 class="about-me-anim">Content</h2>
     <div class="grid-container">
-      <div class="cell-5"></div>
+      <!-- <div class="cell-5"></div> -->
 
       <div class="cell-6">
         <iframe
@@ -96,46 +96,72 @@
     <h2 class="about-me-anim">SoMe content</h2>
     <div class="grid-container">
       <div class="cell-9">
-        <p>REGULAR POSTS, SoMe agenda</p>
+        <h3>INSTAGRAM KAMPAGNE</h3>
+        <p>
+          Kampagen vil strække sig over en måned, med to opslag om ugen på Instagram, hvoraf en af disse
+          vil være #FridayFacts. Det overordnede emne for kampagnen er "Growing knowledge".
+          <br><br>
+          Opslagene har til formål at give råd, vejledning, tips og generelt imformation 
+          om hvordan man kan leve mere bæredygtigt, og forslag til tiltag.
+        </p> 
+        <img src="../../static/images/regrow/some/growing-knowledge.jpg" alt="" />
       </div>
       <div class="cell-10">
         <img src="../../static/images/regrow/some/regular-post.png" alt="" />
         <img src="../../static/images/regrow/some/regular-story.png" alt="" />
       </div>
+    </div>
 
+    <div class="grid-container">
       <div class="cell-11">
-        <p>
-          FRIDAY FACTS<!-- some text here. FB instant, insta story, regurla posts, cross platform -->
+        <h3>#FRIDAYFACTS</h3>
+        <p> 
+          Repot har på deres originale Instagram profil et koncept hvor hver fredag poster
+          alle mulige facts. Hvilket er et koncept jeg valgte at køre videre med, da det er lige
+          i ReGrows ånd. 
+          <br><br>
+          Det passer perfekt med ReGrows TOV, at formidle viden og skabe opmærksomhed
+          omkring bæredygtige problematikker.
+          <br><br>
+          Der er to ekempler på formater af #FridayFacts: simpel og uddybende.
+          Hvoraf den uddybbende indbriger ideer og eller løsningsforslag til problematikken.
         </p>
-        <img
-          src="../../static/images/regrow/some/friday-facts-all.png"
-          alt=""
-        />
+        <img src="../../static/images/regrow/some/friday-facts-all.png" alt=""/>
       </div>
 
       <div class="cell-12">
         <img src="../../static/images/regrow/some/friday-fact67.png" alt="" />
         <img src="../../static/images/regrow/some/friday-fact68.png" alt="" />
       </div>
+    </div>
 
+    <div class="grid-container">
       <div class="cell-13">
+        <h3>FACEBOOK INSTANT EXPERIENCE</h3>
         <p>
-          FACEBOOK INSTANT
-          <!-- some text here. FB instant, insta story, regurla posts, cross platform -->
+          Facebook instant expereinces er reklame som benyttes til at, selvfølgelig at opfange opmærksomhed, samt at skabe en handling fra brugeren. I dette tilfælde er målet at få
+          brugeren ind på hjemmesiden, både for at læse mere om bæredygighed, men også for at 
+          fortælle om produktet.
+          <br><br>
+          Det første billede indbyder brugeren til at tage stilling, hvorefter de to sidste billeder 
+          er løsningsforslag der informere brugeren om muligheder for at læse mere. 
+          <br><br>
+          Der er benyttet en strategi der hedder 'fear appeal', hvilket betyder at der udstilles et
+          negativt element, efterfulgt af en løsning der resultere i noget positivt. Det er et
+          direkte budskab og er lidt en form for 'guilt trip'.
         </p>
-
         <img src="../../static/images/regrow/some/fb-instant.png" alt="" />
       </div>
-
+  
       <div class="cell-14">
-        <video
-          id="video-3"
-          src="../../static/images/regrow/some/fb-instant-experience.mp4"
-          controls
-          autoplay
-          loop
-          muted
-        ></video>
+          <video
+            id="video-3"
+            src="../../static/images/regrow/some/fb-instant-experience.mp4"
+            controls
+            autoplay
+            loop
+            muted
+            ></video>
       </div>
     </div>
 
@@ -225,23 +251,31 @@ h2 {
   color: #95867d;
   text-transform: uppercase;
   font-size: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 15px;
   position: relative;
   text-align: center;
-
   &::after {
     content: '';
     position: absolute;
     width: 50%;
-    height: 5px;
+    height: 4px;
     background-color: #95867d;
     left: 50%;
     bottom: 0;
     transform: translate(-50%, -50%);
+    }
   }
+  h3 {
+  color: #95867d;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  text-align: center;
 }
 .grid-container {
-  padding: 24px 0;
+  padding: 20px 0 80px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
@@ -261,12 +295,10 @@ h2 {
     } //the type is reffering to which grid box
   }
   p {
-    //correct me here, i need styling on the p tag
-    padding-top: 32px;
+    padding-top: 10px;
     font-size: 16px;
     text-align: left;
     color: #95867d;
-    padding: 0 32px 0 0;
   }
   .cell-2 {
     vertical-align: top;
@@ -280,7 +312,6 @@ h2 {
       aspect-ratio: 16/9;
     }
   }
-
   .cell-7 {
     display: flex;
     video {
@@ -293,11 +324,33 @@ h2 {
       width: 50% !important;
     }
   }
+  .cell-9 {
+    img{
+      padding-top: 30px;
+    }
+  }
   .cell-10 {
     flex-direction: column;
+    img{
+      padding-top: 30px;
+    }
+  }
+  .cell-11 {
+    img{
+      padding-top: 30px;
+    }
   }
   .cell-12 {
     flex-direction: column;
+    img{
+      width: 100%;
+      padding-top: 30px;
+    }
+  }
+  .cell-13{
+    img{
+      padding-top: 30px;
+    }
   }
   .cell-14{
     video{
@@ -313,9 +366,6 @@ h2 {
       }
     }
   }
-  img {
-    width: 100%;
-  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -325,24 +375,6 @@ h2 {
   .grid-container {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    padding: 48px 0;
-    .cell-8 {
-      flex-direction: row;
-    }
-    .cell-10 {
-      img {
-        width: 100%;
-      }
-    }
-    .cell-15 {
-      grid-column: 1/3;
-      .mockups-wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 24px;
-        padding-top: 24px;
-      }
-    }
   }
   // .grid-container-2-rows {
   //   grid-template-columns: 1fr 1fr;
@@ -351,17 +383,30 @@ h2 {
   h2 {
     text-align: left;
     font-size: 32px;
-    padding-bottom: 14px;
+    padding-bottom: 40px;
     height: 80px; //temporaryly trying to fix, why it automatically is so high??
     &::after {
-      transform: translateX(0);
+      transform: translate(0);
       left: 0;
-      width: 4%;
+      width: 8%;
     }
   }
+  h3 {
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 10px;
+    height: 40px;
+    font-weight: bold;
+    }
+  p {
+    padding-top: 0px !important;
+    font-size: 16px;
+    text-align: left;
+    color: #95867d;
+  }
   .cell-2 {
-    #video-1 {
-      width: 60%;
+    video {
+      width: 60% !important;
       margin: auto;
     }
   }
@@ -374,7 +419,6 @@ h2 {
   }
   .cell-8,
   .cell-7,
-  .cell-10,
   .cell-12 {
     display: flex;
     img {
@@ -384,19 +428,45 @@ h2 {
   .cell-8 {
     flex-direction: row;
   }
-  .cell-12 {
-    flex-direction: column;
-    img {
-      width: 100%;
-      padding-bottom: 10px;
+  .cell-9{
+    img{
+      width: 40%;
+      margin: auto;
+      padding-top: 20px;
     }
   }
-
-  .cell-14 {
-    #video-3 {
-      width: 40%;
+  .cell-10{
+    img{
+      width: 60%;
+      padding-bottom: 20px;
       margin: auto;
     }
   }
+  .cell-12 {
+    img {
+      width: 60% !important;
+      padding-bottom: 10px;
+    }
+  }
+  .cell-13{
+    img{
+      padding-top: 50px;
+    }
+  }
+  .cell-14 {
+    video {
+      width: 40% !important;
+      margin: auto;
+      }
+  }
+  .cell-15 {
+      grid-column: 1/3;
+      .mockups-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 24px;
+        padding-top: 24px;
+      }
+    }
 }
 </style>
