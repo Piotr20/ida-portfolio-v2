@@ -64,19 +64,25 @@
     <h2 class="about-me-anim">Content</h2>
     <div class="grid-container">
       <div class="cell-9">
-        <img src="" alt=""/>
+        <img src="../../static/images/smokepins/instructions-brochure-crop.png" alt="instructions brochure"/>
       </div>
-
+    <!-- 
       <div class="cell-10">
-        <img src="" alt=""/>
-      </div>
+      </div> 
+    -->
     </div>
 
     <div class="grid-container">
       <div class="cell-11">
         <h3>Infographic</h3>
         <p>
-          infographic text
+          Denne infographic var oprindeligt et udkast til en ide, som vi viste til Smokepins.
+          De var vilde med ideen og kunne virkelig se det brugbare i en infographic som viste på en
+          overskuelig måde, hvordan man skal tilbrede forskelligt kød med smokepins.
+          <br><br>
+          Smokepins kontaktede os somsagt efter eksamensprojektet omkring et samarbejede, hvor jeg blandt andet
+          arbjede med at færdiggøre og præcissere denne infographic. Man kan finde infographic på deres
+          website i dag.
         </p>
       </div>
 
@@ -274,7 +280,7 @@ h2 {
   }
   .cell-15{
     video{
-      width: 70%;
+      width: 60%;
       margin: auto;
     }
   }
