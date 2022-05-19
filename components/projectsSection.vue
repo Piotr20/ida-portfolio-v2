@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="grid-container">
-      <!-- 
+
       <div class="project project-4">
         <div class="background-container cw-img"></div>
         <div class="content-contaienr">
@@ -16,8 +16,7 @@
             >Se mere</NuxtLink>
         </div>
       </div>
- -->
- <!-- 
+
       <div class="project project-2">
         <div class="background-container smokepins-img"></div>
         <div class="content-contaienr">
@@ -32,7 +31,7 @@
           <NuxtLink class="project-2-anim" to="/Smokepins">Se mere</NuxtLink>
         </div>
       </div>
- -->
+
       <div class="project project-3">
         <div class="background-container regrow-img"></div>
         <div class="content-contaienr">
@@ -208,17 +207,17 @@ section {
     background-position: center;
     z-index: 1;
   }
- .background-container,.cw-img {
+  &.background-container,.cw-img{
     background-image: url('../static/images/country_wellness/country-wellness-business-card-mockup2.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
-    .background-container,.smokepins-img {
+  &.background-container,.smokepins-img {
     background-image: url('../static/images/smokepins/Business_Card_Mockup_Smokepins.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
-    .background-container,.regrow-img {
+  &.background-container,.regrow-img {
     background-image: url('../static/images/regrow/regrow_business_card_mockup2.png');
     background-repeat: no-repeat;
     background-size: cover;

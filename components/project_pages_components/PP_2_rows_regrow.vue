@@ -31,7 +31,7 @@
       </div>
     </div>
 
-    <h2 class="about-me-anim">Visuelt udtryk</h2>
+    <h2 class="about-me-anim">Design og visuel identitet</h2>
     <div class="grid-container">
       <div class="cell-3">
         <img
