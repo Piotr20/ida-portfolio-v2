@@ -98,13 +98,18 @@
       <div class="cell-9">
         <h3>INSTAGRAM KAMPAGNE</h3>
         <p>
-          Kampagen vil strække sig over en måned, med to opslag om ugen på Instagram, hvoraf en af disse
-          vil være #FridayFacts. Det overordnede emne for kampagnen er "Growing knowledge".
-          <br><br>
-          Opslagene har til formål at give råd, vejledning, tips og generelt imformation 
-          om hvordan man kan leve mere bæredygtigt, og forslag til tiltag.
-        </p> 
-        <img src="../../static/images/regrow/some/growing-knowledge.jpg" alt="" />
+          Kampagen vil strække sig over en måned, med to opslag om ugen på
+          Instagram, hvoraf en af disse vil være #FridayFacts. Det overordnede
+          emne for kampagnen er "Growing knowledge".
+          <br /><br />
+          Opslagene har til formål at give råd, vejledning, tips og generelt
+          imformation om hvordan man kan leve mere bæredygtigt, og forslag til
+          tiltag.
+        </p>
+        <img
+          src="../../static/images/regrow/some/growing-knowledge.jpg"
+          alt=""
+        />
       </div>
       <div class="cell-10">
         <img src="../../static/images/regrow/some/regular-post.png" alt="" />
@@ -115,18 +120,22 @@
     <div class="grid-container">
       <div class="cell-11">
         <h3>#FRIDAYFACTS</h3>
-        <p> 
-          Repot har på deres originale Instagram profil et koncept hvor hver fredag poster
-          alle mulige facts. Hvilket er et koncept jeg valgte at køre videre med, da det er lige
-          i ReGrows ånd. 
-          <br><br>
-          Det passer perfekt med ReGrows TOV, at formidle viden og skabe opmærksomhed
-          omkring bæredygtige problematikker.
-          <br><br>
+        <p>
+          Repot har på deres originale Instagram profil et koncept hvor hver
+          fredag poster alle mulige facts. Hvilket er et koncept jeg valgte at
+          køre videre med, da det er lige i ReGrows ånd.
+          <br /><br />
+          Det passer perfekt med ReGrows TOV, at formidle viden og skabe
+          opmærksomhed omkring bæredygtige problematikker.
+          <br /><br />
           Der er to ekempler på formater af #FridayFacts: simpel og uddybende.
-          Hvoraf den uddybbende indbriger ideer og eller løsningsforslag til problematikken.
+          Hvoraf den uddybbende indbriger ideer og eller løsningsforslag til
+          problematikken.
         </p>
-        <img src="../../static/images/regrow/some/friday-facts-all.png" alt=""/>
+        <img
+          src="../../static/images/regrow/some/friday-facts-all.png"
+          alt=""
+        />
       </div>
 
       <div class="cell-12">
@@ -139,29 +148,33 @@
       <div class="cell-13">
         <h3>FACEBOOK INSTANT EXPERIENCE</h3>
         <p>
-          Facebook instant expereinces er reklame som benyttes til at, selvfølgelig at opfange opmærksomhed, samt at skabe en handling fra brugeren. I dette tilfælde er målet at få
-          brugeren ind på hjemmesiden, både for at læse mere om bæredygighed, men også for at 
-          fortælle om produktet.
-          <br><br>
-          Det første billede indbyder brugeren til at tage stilling, hvorefter de to sidste billeder 
-          er løsningsforslag der informere brugeren om muligheder for at læse mere. 
-          <br><br>
-          Der er benyttet en strategi der hedder 'fear appeal', hvilket betyder at der udstilles et
-          negativt element, efterfulgt af en løsning der resultere i noget positivt. Det er et
-          direkte budskab og er lidt en form for 'guilt trip'.
+          Facebook instant expereinces er reklame som benyttes til at,
+          selvfølgelig at opfange opmærksomhed, samt at skabe en handling fra
+          brugeren. I dette tilfælde er målet at få brugeren ind på hjemmesiden,
+          både for at læse mere om bæredygighed, men også for at fortælle om
+          produktet.
+          <br /><br />
+          Det første billede indbyder brugeren til at tage stilling, hvorefter
+          de to sidste billeder er løsningsforslag der informere brugeren om
+          muligheder for at læse mere.
+          <br /><br />
+          Der er benyttet en strategi der hedder 'fear appeal', hvilket betyder
+          at der udstilles et negativt element, efterfulgt af en løsning der
+          resultere i noget positivt. Det er et direkte budskab og er lidt en
+          form for 'guilt trip'.
         </p>
         <img src="../../static/images/regrow/some/fb-instant.png" alt="" />
       </div>
-  
+
       <div class="cell-14">
-          <video
-            id="video-3"
-            src="../../static/images/regrow/some/fb-instant-experience.mp4"
-            controls
-            autoplay
-            loop
-            muted
-            ></video>
+        <video
+          id="video-3"
+          src="../../static/images/regrow/some/fb-instant-experience.mp4"
+          controls
+          autoplay
+          loop
+          muted
+        ></video>
       </div>
     </div>
 
@@ -263,9 +276,9 @@ h2 {
     left: 50%;
     bottom: 0;
     transform: translate(-50%, -50%);
-    }
   }
-  h3 {
+}
+h3 {
   color: #95867d;
   font-weight: bold;
   text-transform: uppercase;
@@ -275,10 +288,10 @@ h2 {
   text-align: center;
 }
 .grid-container {
-  padding: 20px 0 80px;
+  padding: 20px 0;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-auto-rows: minmax(min-content, max-content);
   grid-gap: 24px;
   div {
     text-align: left;
@@ -325,35 +338,35 @@ h2 {
     }
   }
   .cell-9 {
-    img{
+    img {
       padding-top: 30px;
     }
   }
   .cell-10 {
     flex-direction: column;
-    img{
+    img {
       padding-top: 30px;
     }
   }
   .cell-11 {
-    img{
+    img {
       padding-top: 30px;
     }
   }
   .cell-12 {
     flex-direction: column;
-    img{
+    img {
       width: 100%;
       padding-top: 30px;
     }
   }
-  .cell-13{
-    img{
+  .cell-13 {
+    img {
       padding-top: 30px;
     }
   }
-  .cell-14{
-    video{
+  .cell-14 {
+    video {
       width: 80%;
       margin: auto;
     }
@@ -374,7 +387,8 @@ h2 {
   }
   .grid-container {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-auto-rows: minmax(min-content, max-content);
+    padding: 32px 0;
   }
   // .grid-container-2-rows {
   //   grid-template-columns: 1fr 1fr;
@@ -397,7 +411,7 @@ h2 {
     padding-bottom: 10px;
     height: 40px;
     font-weight: bold;
-    }
+  }
   p {
     padding-top: 0px !important;
     font-size: 16px;
@@ -428,15 +442,15 @@ h2 {
   .cell-8 {
     flex-direction: row;
   }
-  .cell-9{
-    img{
+  .cell-9 {
+    img {
       width: 40%;
       margin: auto;
       padding-top: 20px;
     }
   }
-  .cell-10{
-    img{
+  .cell-10 {
+    img {
       width: 60%;
       padding-bottom: 20px;
       margin: auto;
@@ -448,8 +462,8 @@ h2 {
       padding-bottom: 10px;
     }
   }
-  .cell-13{
-    img{
+  .cell-13 {
+    img {
       padding-top: 50px;
     }
   }
@@ -457,16 +471,16 @@ h2 {
     video {
       width: 40% !important;
       margin: auto;
-      }
+    }
   }
   .cell-15 {
-      grid-column: 1/3;
-      .mockups-wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 24px;
-        padding-top: 24px;
-      }
+    grid-column: 1/3;
+    .mockups-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 24px;
+      padding-top: 24px;
     }
+  }
 }
 </style>
