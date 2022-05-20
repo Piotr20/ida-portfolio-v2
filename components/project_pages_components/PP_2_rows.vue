@@ -60,7 +60,7 @@ h2 {
   padding: 20px 0 80px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-auto-rows: minmax(min-content, max-content);
   grid-gap: 24px;
   div {
     text-align: left;
@@ -90,7 +90,7 @@ h2 {
   }
   .grid-container {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-auto-rows: minmax(min-content, max-content);
   }
   // .grid-container-2-rows {
   //   grid-template-columns: 1fr 1fr;

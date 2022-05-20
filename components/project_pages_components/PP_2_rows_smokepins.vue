@@ -5,13 +5,17 @@
     <div class="grid-container">
       <div class="cell-1">
         <p>
-          text here
-          <!-- We created a unique visual identity that carried through all. aspects
-          of the business distingushes Smokepins ApS from other competitiors
-          making their brand memorable. This project was not. as much for a
-          coding as it was rather for design and marketing. Even though it was
-          not very code-wise project we included. several immersive effects like
-          e. g. lines drawing on scroll. -->
+          Smokepins har en personlig og nede på jorden kommunikation med deres kunder, hvilket
+          bunder i at Ole (ejer) selv er indenfor kundesegmentet. Oles formål med Smokepins&reg;
+          var hans ønske om at dele produktet med folk som ham selv, friluftsmennesker.
+          <br><br>
+          Markedsførings strategien er ikke 'in your face', som man nogen gange kan opleve. 
+          Ole startede næppe virksomheden for at tjene en masse penge, men derimod for at del
+          denne oplevelse med andre.
+          <br><br>
+          Folk som gerne vil udforske deres smagsløg, og som gerne vil i kontakt med deres forhistoriske
+          side og virkelig ligge tid i at forbedrede deres mad. Det handler netop også at nå ud til de
+          mennesker som endnu ikke ved at de netop står og mangler Smokepins&reg;.
         </p>
       </div>
 
@@ -66,10 +70,11 @@
       <div class="cell-9">
         <img src="../../static/images/smokepins/instructions-brochure-crop.png" alt="instructions brochure"/>
       </div>
-    <!-- 
+
       <div class="cell-10">
+        <img src="../../static/images/smokepins/iphone-some-bg.png" alt="Iphone mockup, SoMe"/>
       </div> 
-    -->
+
     </div>
 
     <div class="grid-container">
@@ -91,6 +96,7 @@
       </div>
     </div>
 
+<!-- 
     <h2 class="about-me-anim">Some Content</h2>
     <div class="grid-container">
       <div class="cell-13">
@@ -104,6 +110,8 @@
         <img src="../../static/images/smokepins/infographic.png" alt="infographic"/>
       </div>
     </div>
+ -->
+
   <h2 class="about-me-anim">Website</h2>
     <div class="div-container">
       <div class="cell-15">
@@ -148,7 +156,6 @@ section {
     color: #95867d;
   }
 }
-
 h2 {
   color: #95867d;
   text-transform: uppercase;
@@ -180,7 +187,7 @@ h2 {
   padding: 20px 0 80px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-auto-rows: minmax(min-content, max-content);
   grid-gap: 24px;
   div {
     text-align: left;
@@ -217,6 +224,11 @@ h2 {
     margin: auto;
   }
   }
+  .cell-2{
+    img{
+      width: 100%;
+    }
+  }
   .cell-15{
     video{
       width: 100%;
@@ -230,7 +242,7 @@ h2 {
   }
   .grid-container {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-auto-rows: minmax(min-content, max-content);
   }
   // .grid-container-2-rows {
   //   grid-template-columns: 1fr 1fr;
@@ -239,8 +251,8 @@ h2 {
   h2 {
     text-align: left;
     font-size: 32px;
-    padding-bottom: 40px;
-    height: 80px; 
+    padding-bottom: 20px;
+
     &::after {
       transform: translate(0);
       left: 0;
@@ -269,7 +281,12 @@ h2 {
       display: none;
     }
     p {
-      max-width: 50%;
+      max-width: 45%;
+    }
+  }
+  .cell-2{
+    img{
+      width: 70%;
     }
   }
   .cell-7{
