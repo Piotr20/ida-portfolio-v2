@@ -1,37 +1,6 @@
 <template>
   <section>
     <div class="grid-container">
-      <div class="project project-3">
-        <div class="background-container regrow-img"></div>
-        <div class="content-contaienr">
-          <h2 class="project-3-anim">ReGrow</h2>
-          <p class="project-3-anim">
-            Delvist gruppe eksamensprojekt med Repot ApS som kunde. 
-            Storyscaping konceptet var omdrejningspunktet for projektet, 
-            hvilket var en anderledes tilgang som skabte nye tankegange og anderledes ideer. 
-            Projektet var delt i to eksamensprojekter, 
-            hvilket gjorde det muligt virkelig at arbejde i dybden.
-          </p>
-          <NuxtLink class="project-3-anim" to="/Regrow">Se mere</NuxtLink>
-        </div>
-      </div>
-
-      <div class="project project-2">
-              <div class="background-container smokepins-img"></div>
-              <div class="content-contaienr">
-                <h2 class="project-2-anim">Smokepins</h2>
-                <p class="project-2-anim">
-                  Gruppe eksamensprojekt med Smokepins som kunde. Projektet havde
-                  rigtig stor succes, i den forstand at kunden efterfulgt har
-                  implementeret store dele af websitet vi har udarbejdet, samt
-                  grafikker og markedsførings ideer. En kæmpe fornøjelse at samarbejde
-                  med en kunde og se reelt brugbare resultater.
-                </p>
-                <NuxtLink class="project-2-anim" to="/Smokepins">Se mere</NuxtLink>
-              </div>
-            </div>
-
-<!-- 
       <div class="project project-4">
         <div class="background-container cw-img"></div>
         <div class="content-contaienr">
@@ -46,7 +15,36 @@
             >Se mere</NuxtLink>
         </div>
       </div>
- -->
+
+      <div class="project project-2">
+        <div class="background-container smokepins-img"></div>
+        <div class="content-contaienr">
+          <h2 class="project-2-anim">Smokepins</h2>
+          <p class="project-2-anim">
+            Gruppe eksamensprojekt med Smokepins som kunde. Projektet havde
+            rigtig stor succes, i den forstand at kunden efterfulgt har
+            implementeret store dele af websitet vi har udarbejdet, samt
+            grafikker og markedsførings ideer. En kæmpe fornøjelse at samarbejde
+            med en kunde og se reelt brugbare resultater.
+          </p>
+          <NuxtLink class="project-2-anim" to="/Smokepins">Se mere</NuxtLink>
+        </div>
+      </div>
+
+      <div class="project project-3">
+        <div class="background-container regrow-img"></div>
+        <div class="content-contaienr">
+          <h2 class="project-3-anim">ReGrow</h2>
+          <p class="project-3-anim">
+            Delvist gruppe eksamensprojekt med Repot ApS som kunde. 
+            Storyscaping konceptet var omdrejningspunktet for projektet, 
+            hvilket var en anderledes tilgang som skabte nye tankegange og anderledes ideer. 
+            Projektet var delt i to eksamensprojekter, 
+            hvilket gjorde det muligt virkelig at arbejde i dybden.
+          </p>
+          <NuxtLink class="project-3-anim" to="/Regrow">Se mere</NuxtLink>
+        </div>
+      </div>
 
       <!-- OTHER PROJECTS -->
 
@@ -208,17 +206,17 @@ section {
     background-position: center;
     z-index: 1;
   }
- .background-container,.cw-img {
+  &.background-container,.cw-img{
     background-image: url('../static/images/country_wellness/country-wellness-business-card-mockup2.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
-    .background-container,.smokepins-img {
+  &.background-container,.smokepins-img {
     background-image: url('../static/images/smokepins/Business_Card_Mockup_Smokepins.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
-    .background-container,.regrow-img {
+  &.background-container,.regrow-img {
     background-image: url('../static/images/regrow/regrow_business_card_mockup2.png');
     background-repeat: no-repeat;
     background-size: cover;
