@@ -140,6 +140,7 @@ section {
   }
   h3 {
     padding-left: 16px;
+    font-size: 22px;
   }
 }
 @media only screen and (min-width: 1024px) {

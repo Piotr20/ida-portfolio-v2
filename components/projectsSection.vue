@@ -1,7 +1,37 @@
 <template>
   <section>
     <div class="grid-container">
-      <!-- 
+      <div class="project project-3">
+        <div class="background-container regrow-img"></div>
+        <div class="content-contaienr">
+          <h2 class="project-3-anim">ReGrow</h2>
+          <p class="project-3-anim">
+            Delvist gruppe eksamensprojekt med Repot ApS som kunde. 
+            Storyscaping konceptet var omdrejningspunktet for projektet, 
+            hvilket var en anderledes tilgang som skabte nye tankegange og anderledes ideer. 
+            Projektet var delt i to eksamensprojekter, 
+            hvilket gjorde det muligt virkelig at arbejde i dybden.
+          </p>
+          <NuxtLink class="project-3-anim" to="/Regrow">Se mere</NuxtLink>
+        </div>
+      </div>
+
+      <div class="project project-2">
+              <div class="background-container smokepins-img"></div>
+              <div class="content-contaienr">
+                <h2 class="project-2-anim">Smokepins</h2>
+                <p class="project-2-anim">
+                  Gruppe eksamensprojekt med Smokepins som kunde. Projektet havde
+                  rigtig stor succes, i den forstand at kunden efterfulgt har
+                  implementeret store dele af websitet vi har udarbejdet, samt
+                  grafikker og markedsførings ideer. En kæmpe fornøjelse at samarbejde
+                  med en kunde og se reelt brugbare resultater.
+                </p>
+                <NuxtLink class="project-2-anim" to="/Smokepins">Se mere</NuxtLink>
+              </div>
+            </div>
+
+<!-- 
       <div class="project project-4">
         <div class="background-container cw-img"></div>
         <div class="content-contaienr">
@@ -17,36 +47,6 @@
         </div>
       </div>
  -->
- <!-- 
-      <div class="project project-2">
-        <div class="background-container smokepins-img"></div>
-        <div class="content-contaienr">
-          <h2 class="project-2-anim">Smokepins</h2>
-          <p class="project-2-anim">
-            Gruppe eksamensprojekt med Smokepins som kunde. Projektet havde
-            rigtig stor succes, i den forstand at kunden efterfulgt har
-            implementeret store dele af websitet vi har udarbejdet, samt
-            grafikker og markedsførings ideer. En kæmpe fornøjelse at samarbejde
-            med en kunde og se reelt brugbare resultater.
-          </p>
-          <NuxtLink class="project-2-anim" to="/Smokepins">Se mere</NuxtLink>
-        </div>
-      </div>
- -->
-      <div class="project project-3">
-        <div class="background-container regrow-img"></div>
-        <div class="content-contaienr">
-          <h2 class="project-3-anim">ReGrow</h2>
-          <p class="project-3-anim">
-            Delvist gruppe eksamensprojekt med Repot ApS som kunde. 
-            Storyscaping konceptet var omdrejningspunktet for projektet, 
-            hvilket var en anderledes tilgang som skabte nye tankegange og anderledes ideer. 
-            Projektet var delt i to eksamensprojekter, 
-            hvilket gjorde det muligt virkelig at arbejde i dybden.
-          </p>
-          <NuxtLink class="project-3-anim" to="/Regrow">Se mere</NuxtLink>
-        </div>
-      </div>
 
       <!-- OTHER PROJECTS -->
 
@@ -237,7 +237,7 @@ section {
     z-index: 3;
     h2 {
       font-size: 32px;
-      padding-bottom: 12px;
+      padding-bottom: 20px;
       position: relative;
       text-transform: uppercase;
       text-align: left;
@@ -336,7 +336,7 @@ section {
     }
   }
   .project-3 {
-    grid-row: 2/3;
+    grid-row: 1/2;
     grid-column: 1/3;
     .content-contaienr {
       h2 {
@@ -359,7 +359,32 @@ section {
       }
     }
   }
-}
+  .project-2 { //Styling long (if you delete this, it will go auto back)
+    grid-row: 2/3;
+    grid-column: 1/3;
+    .content-contaienr {
+      h2 {
+        text-align: center;
+        &::after {
+          left: 50%;
+          transform: translateX(-50%);
+          width: 10%;
+        }
+      }
+      p {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+      }
+      a {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 6px 16px;
+      }
+    }
+    }
+  }
+
 @media only screen and (min-width: 1440px) {
   .project {
     p {

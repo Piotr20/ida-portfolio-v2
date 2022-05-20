@@ -83,7 +83,8 @@ section {
   position: relative;
   h3 {
     color: white;
-    font-size: 16px; //make this smaller -------------
+    font-size: 18px;
+    text-align: center;
   }
   span {
     font-size: 80px;
@@ -92,22 +93,22 @@ section {
     transform: translate(-50%, -50%);
     &:nth-of-type(1) {
       left: 25px;
-      top: 45px;
+      top: 40px;
     }
     &:nth-of-type(2) {
       right: 0;
-      bottom: -85px;
+      bottom: -110px;
     }
   }
 }
 ul {
   color: white;
-  text-align: left;
-  padding: 32px 0;
-  font-size: 16px; //make this smaller -------------
+  text-align: center;
+  padding: 20px 0;
+  font-size: 18px; //make this smaller -------------
   padding-left: 18px;
   li {
-    padding: 12px 0;
+    padding: 8px 0;
   }
 }
 
@@ -117,9 +118,8 @@ ul {
     padding: 64px;
     margin: 36px 0;
     h2 {
-      font-size: 158px;
-      font-size: 48px;
-      padding-bottom: 48px;
+      font-size: 32px;
+      padding-bottom: 20px;
       &::after {
         width: 10%;
       }
@@ -136,12 +136,12 @@ ul {
   }
   .quote-container {
     width: 45%;
-    padding: 100px 64px;
+    padding: 60px 64px;
     h3 {
-      font-size: 22px; //make this smaller -------------
+      font-size: 18px;
     }
     span {
-      font-size: 144px;
+      font-size: 100px;
       &:nth-of-type(1) {
         left: 10%;
         top: 15%;
@@ -153,9 +153,10 @@ ul {
     }
   }
   ul {
-    font-size: 22px; //make this smaller -------------
+    font-size: 18px;
+    text-align: left;
     li {
-      padding: 20px 0;
+      padding: 10px 0;
     }
   }
 }

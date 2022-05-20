@@ -1,6 +1,7 @@
 <template>
   <section id="2-rows-grid">
-    <h2 class="about-me-anim">{{ headingText }}</h2>
+
+    <h2 class="about-me-anim">Brandets budskab</h2>
     <div class="grid-container">
       <div class="cell-1">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
@@ -23,6 +24,51 @@
         maxime! Ea.
       </div>
     </div>
+
+    <h2 class="about-me-anim">Design og visuel identitet</h2>
+    <div class="grid-container">
+      <div class="cell-3">
+        <img src="" alt="" />
+      </div>
+
+      <div class="cell-4">
+        <img src="" alt="" />
+      </div>
+    </div>
+
+    <h2 class="about-me-anim">Logo design</h2>
+    <div class="grid-container">
+      <div class="cell-5">
+        <p>some text here</p>
+      </div>
+
+      <div class="cell-6">
+        <img src="" alt="" />
+      </div>
+    </div>
+    
+    <h2 class="about-me-anim">Content</h2>
+    <div class="grid-container">
+      <div class="cell-7">
+        <img src="" alt=""/>
+      </div>
+
+      <div class="cell-8">
+        <img src="" alt=""/>
+      </div> 
+    </div>
+
+    <h2 class="about-me-anim">Website</h2>
+    <div class="grid-container">
+      <div class="cell-9">
+        <img src="" alt=""/>
+      </div>
+
+      <div class="cell-10">
+        <img src="" alt=""/>
+      </div> 
+    </div>
+
   </section>
 </template>
 
@@ -61,8 +107,8 @@ h2 {
 .grid-container {
   padding: 24px 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(min-content, max-content);
   grid-gap: 24px;
 }
 @media only screen and (min-width: 1024px) {
@@ -75,7 +121,7 @@ h2 {
   h2 {
     text-align: left;
     font-size: 32px;
-    padding-bottom: 14px;
+    padding-bottom: 20px;
     &::after {
       transform: translateX(0);
       left: 0;

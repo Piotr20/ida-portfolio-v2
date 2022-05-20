@@ -283,12 +283,12 @@ h3 {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   position: relative;
   text-align: center;
 }
 .grid-container {
-  padding: 20px 0;
+  padding: 20px 0 60px;
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: minmax(min-content, max-content);
@@ -397,8 +397,7 @@ h3 {
   h2 {
     text-align: left;
     font-size: 32px;
-    padding-bottom: 40px;
-    height: 80px; //temporaryly trying to fix, why it automatically is so high??
+    padding-bottom: 20px;
     &::after {
       transform: translate(0);
       left: 0;

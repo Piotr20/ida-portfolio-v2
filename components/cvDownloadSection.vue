@@ -41,13 +41,14 @@ section {
     font-size: 26px;
     text-transform: uppercase;
     text-align: center;
+    padding-bottom: 15px;
   }
   a {
     text-transform: uppercase;
     background-color: #95867d;
     color: white;
-    font-size: 20px;
-    padding: 12px 40px;
+    font-size: 18px;
+    padding: 8px 30px;
     display: inline-block;
     margin-top: 24px;
     transition: all 0.3s ease;

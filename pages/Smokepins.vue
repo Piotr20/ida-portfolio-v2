@@ -10,7 +10,7 @@
           Smokepins ApS er en dansk startupvirksomhed opstartet af Ole Gravrok i
           2017. Firmaets mission er at konservering af ferskvare skal være nemt
           og tilgængeligt hvor end man befinder sig, heraf deres produkt
-          Smokepins. Røgpinde i højkvalitet, håndlavet i Danmark.
+          Smokepins&reg;: Røgpinde i højkvalitet, håndlavet i Danmark.
           <br /><br />
           Firmaet er kendt for at have medvirket i Løvens Hule i 2019 og igen i
           2020. Det var netop her vi opdagede firmaet og dens potentiale for
@@ -108,8 +108,8 @@ section.project-details {
     text-transform: uppercase;
     color: #95867d;
     font-size: 32px;
-    padding-bottom: 32px;
-    margin-bottom: 32px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
     position: relative;
     text-transform: uppercase;
     &::after {
@@ -151,10 +151,9 @@ section.project-details {
       font-size: 32px;
       padding-bottom: 14px;
       margin-bottom: 24px;
-
       text-align: left;
       &::after {
-        width: 10%;
+        width: 30%;
         left: 0;
         transform: translateX(0);
       }

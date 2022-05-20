@@ -142,10 +142,9 @@ section.project-details {
       font-size: 32px;
       padding-bottom: 14px;
       margin-bottom: 24px;
-
       text-align: left;
       &::after {
-        width: 10%;
+        width: 30%;
         left: 0;
         transform: translateX(0);
       }

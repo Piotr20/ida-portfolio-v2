@@ -147,7 +147,7 @@ section {
     justify-content: center;
     align-items: center;
     img {
-      width: 100%;
+      width: 80%;
     }
   }
   .vyond-logo {
@@ -164,7 +164,7 @@ section {
     padding: 64px;
     h2 {
       font-size: 32px;
-      padding-bottom: 14px;
+      padding-bottom: 20px;
       &::after {
         width: 10%;
       }
@@ -181,6 +181,9 @@ section {
     align-items: center;
     .icon-box {
       width: 100%;
+      img {
+      width: 100%;
+    }
     }
     .vyond-logo {
       grid-column: 1/3;

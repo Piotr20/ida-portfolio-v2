@@ -133,8 +133,8 @@ a {
   text-transform: uppercase;
   background-color: #fff;
   color: #e54575;
-  font-size: 20px;
-  padding: 12px 40px;
+  font-size: 18px;
+  padding: 8px 30px;
   display: inline-block;
   margin-top: 24px;
   transition: all 0.3s ease;
@@ -158,7 +158,7 @@ a {
     align-items: center;
     h2 {
       font-size: 32px;
-      padding-bottom: 14px;
+      padding-bottom: 20px;
     }
     p {
       font-size: 18px;
@@ -166,9 +166,24 @@ a {
     }
     a {
       padding: 6px 16px;
-      font-size: 16px;
-    }
-  }
+      font-size: 18px;
+      text-transform: uppercase;
+      background-color: #fff;
+      color: #e54575;
+      padding: 10px 35px;
+      display: inline-block;
+      margin-top: 24px;
+      transition: all 0.3s ease;
+      border: 3px solid #fff;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: 600;
+      &:hover {
+        background-color: #e54575;
+        color: #fff;
+      }
+        }
+      }
   .flags-container {
     display: flex;
     flex-direction: row;

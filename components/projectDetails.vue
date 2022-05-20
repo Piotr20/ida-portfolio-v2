@@ -52,7 +52,7 @@ section {
       text-transform: uppercase;
       color: white;
       font-size: 32px;
-      padding-bottom: 32px;
+      padding-bottom: 20px;
       margin-bottom: 32px;
       position: relative;
       text-transform: uppercase;
@@ -79,9 +79,6 @@ section {
     }
     ul {
       list-style: none;
-      li {
-        padding: 2px 0;
-      }
     }
   }
 }
@@ -97,7 +94,7 @@ section {
 .grid-container {
   display: grid;
   width: 100%;
-  padding: 0;
+  padding: 8px 0 0 0;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
   align-items: center;
@@ -148,7 +145,8 @@ section {
     }
   }
   .grid-container {
-    gap: 36px;
+    gap: 20px;
+    padding-top: 5px;
     align-items: center;
     justify-items: center;
     grid-template-columns: repeat(5, 1fr);
