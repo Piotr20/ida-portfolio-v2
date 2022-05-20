@@ -107,7 +107,7 @@
           tiltag.
         </p>
         <img
-          src="../../static/images/regrow/some/growing-knowledge.jpg"
+          src="../../static/images/regrow/some/iphone-some.png"
           alt=""
         />
       </div>
@@ -132,10 +132,6 @@
           Hvoraf den uddybbende indbriger ideer og eller løsningsforslag til
           problematikken.
         </p>
-        <img
-          src="../../static/images/regrow/some/friday-facts-all.png"
-          alt=""
-        />
       </div>
 
       <div class="cell-12">
@@ -443,7 +439,7 @@ h3 {
   }
   .cell-9 {
     img {
-      width: 40%;
+      width: 100%;
       margin: auto;
       padding-top: 20px;
     }
