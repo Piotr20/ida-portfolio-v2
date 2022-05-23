@@ -165,7 +165,7 @@
       <div class="cell-14">
         <video
           id="video-3"
-          src="../../static/images/regrow/some/fb-instant-experience.mp4"
+          src="../../static/images/regrow/some/fb-instant-experience-iphone.mp4"
           controls
           autoplay
           loop
@@ -384,7 +384,7 @@ h3 {
   .grid-container {
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: minmax(min-content, max-content);
-    padding: 32px 0;
+    padding: 32px 0 60px;
   }
   // .grid-container-2-rows {
   //   grid-template-columns: 1fr 1fr;
@@ -446,14 +446,14 @@ h3 {
   }
   .cell-10 {
     img {
-      width: 60%;
+      width: 70%;
       padding-bottom: 20px;
       margin: auto;
     }
   }
   .cell-12 {
     img {
-      width: 60% !important;
+      width: 70% !important;
       padding-bottom: 10px;
     }
   }
@@ -464,7 +464,7 @@ h3 {
   }
   .cell-14 {
     video {
-      width: 40% !important;
+      width: 55% !important;
       margin: auto;
     }
   }
