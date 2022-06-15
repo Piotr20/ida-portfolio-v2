@@ -4,18 +4,19 @@
       <div class="text-wrapper">
         <h2 class="about-me-anim">IDA SKJØDT OLESEN</h2>
         <p class="about-me-anim">
+          Hej jeg hedder Ida, jeg er 23 år og er bosat i Højbjerg. 
+          Jeg er uddannet Multimediedesigner og har tidligere beskæftiget mig med animation. 
+          <br/><br/>
           Jeg er særlig passioneret omkring at skabe fortællinger og dele
           budskaber gennem billeder og video, heriblandt særligt
-          <strong>animation og motion graphics</strong>. Processen med at
-          nørkler med små elementer, som forener sig og går ubemærket hen og
-          bliver stykket sammen som en helhed, giver mig drive.
-
-          <br /><br />
+          <strong>animation og motion graphics</strong>. Det giver mig et kæmpe drive
+          hele processen med at arbejde på små detajler som forener sig og
+          bliver stykket sammen til en helhed.
+          <br/><br/>
           For mig er arbejdsmiljøet med mine kollegaer en betydelig del af min
-          motivation for mit arbejde, da det at <strong>samarbejder</strong> kan
-          bibringe ellers usete perspektiver på en given sag. Jeg holder af at
-          <strong>sprede godt humør</strong> blandt de mennesker jeg omgås
-          dagligt.
+          motivation for mit arbejde, da det at <strong>samarbejde</strong> kan
+          bibringe ellers usete perspektiver. Jeg holder af at sprede godt humør 
+          blandt mine medmennesker.
         </p>
         <div class="based-in-aarhus">
           <img
