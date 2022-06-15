@@ -1,10 +1,10 @@
 <template>
   <section id="cv">
-    <h2 class="cv-anim">Vil du downloade mit Cv?</h2>
+    <h2 class="cv-anim">Vil du downloade mit CV?</h2>
     <a
       class="cv-anim"
-      href="/download/cv-ida-skjodt-olesen.pdf"
-      download="cv-ida-skjodt-olesen"
+      href="/download/CV-Ida Skjødt Olesen-DK.pdf"
+      download="CV-Ida Skjødt Olesen-DK"
       >Download</a
     >
   </section>
