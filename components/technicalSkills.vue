@@ -40,14 +40,14 @@
       <div class="icon-box">
         <img
           class="technical-skills-anim"
-          src="../static/images/skills-icons/akar-icons_figma-fill.png"
+          src="../static/images/skills-icons/figma-logo.png"
           alt=""
         />
       </div>
       <div class="icon-box">
         <img
           class="technical-skills-anim"
-          src="../static/images/skills-icons/mdi_microsoft-office.png"
+          src="../static/images/skills-icons/invision-logo.png"
           alt=""
         />
       </div>
@@ -72,14 +72,28 @@
           alt=""
         />
       </div>
-      <div class="icon-box vyond-logo">
+      <div class="icon-box">
+        <img
+          class="technical-skills-anim"
+          src="../static/images/skills-icons/elementor-logo.png"
+          alt=""
+        />
+      </div>
+      <div class="icon-box">
+        <img
+          class="technical-skills-anim"
+          src="../static/images/skills-icons/mdi_microsoft-office.png"
+          alt=""
+        />
+      </div>
+      <div class="icon-box vyond-logo"> 
         <img
           class="technical-skills-anim"
           src="../static/images/skills-icons/vyond_Logo.png"
           alt=""
         />
       </div>
-      <div class="icon-box monday-logo">
+     <div class="icon-box monday-logo">
         <img
           class="technical-skills-anim"
           src="../static/images/skills-icons/monday-Logo.png"
@@ -138,7 +152,7 @@ section {
   padding-top: 32px;
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(min-content, max-content);
   grid-gap: 32px;
   .icon-box {
@@ -151,17 +165,23 @@ section {
     }
   }
   .vyond-logo {
-    grid-column: 2/4;
+    grid-column: 1/3;
+     img {
+      width: 60%;
+    }
   }
   .monday-logo {
-    grid-column: 1/4;
-    grid-row: 5/6;
+     grid-column: 3/5;
+   img {
+      width: 110%;
+    }
   }
 }
 @media only screen and (min-width: 1024px) {
   section {
     width: 100%;
     padding: 64px;
+    padding-bottom: 80px;
     h2 {
       font-size: 32px;
       padding-bottom: 20px;
@@ -171,27 +191,29 @@ section {
     }
   }
   .skills-container {
-    padding-top: 24px;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    height: 32vh;
-    width: 30%;
+    padding-top: 40px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 36vh;
+    width: 45%;
     margin: 0 auto;
     justify-items: center;
     align-items: center;
     .icon-box {
-      width: 100%;
+      width: 80%;
       img {
       width: 100%;
     }
     }
     .vyond-logo {
-      grid-column: 1/3;
-      justify-self: right;
+      grid-column: 1/4;
+      img {
+      width: 50%;
+    }
     }
     .monday-logo {
-      width: 50%;
-      grid-column: 3/6;
+      width: 80%;
+      grid-column: 4/7;
       grid-row: 3/4;
       justify-self: center;
     }
