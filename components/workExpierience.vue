@@ -4,19 +4,42 @@
       <div class="side-box-container">
         <SideHeading title="Arbejdserfaring" />
       </div>
-<div class="work-expierience-box work-expierience-anim">
+      <div class="work-expierience-box work-expierience-anim">
         <h2>BILLIG ANIMATION</h2>
         <h3>Digital Designer</h3>
         <span>August 2021 - September 2021</span>
         <ul>
           <li>
-            Udarbejdelse af animationsfilm og explainer videoer, herunder også illustrationer
+            Udarbejdelse af animationsfilm og explainer videoer i Vyond og After Effects, 
+            samt redigering i Premiere Pro.  
+            Samt udarbejdelse af illustrationer og grafikker i Illustrator og Photoshop.
           </li>
           <li>
-            Kundehåndtering fra start til slut af projektet, herunder dialog og mail korrespondance.
+            Kommunikation og samarbejde med kunder og kollegaer før/under/efter produktudvikling.
           </li>
           <li>
-            Kreativ formidling og idéudvikling af budskab til storyline
+            Kreativ visuel formidling og idéudvikling af budskab til storyline og manuskript.
+          </li>
+        </ul>
+      </div>
+      <div class="work-expierience-box work-expierience-anim">
+        <h2>BILLIG ANIMATION / VIRAL FILM</h2>
+        <h3>Motion Graphics praktikant</h3>
+        <span>Januar 2021 - April 2021</span>
+        <ul>
+          <li>
+            Assisterende hjælper på filmsettet med teknisk udstyr, og produkt shoots set ups.
+          </li>
+          <li>
+            Udarbejdelse af animationsfilm og explainer videoer i Vyond og After Effects, 
+            samt redigering i Premiere Pro. 
+            Samt udarbejdelse af illustrationer og grafikker i Illustrator og Photoshop.
+          </li>
+          <li>
+            Kommunikation og samarbejde med kunder og kollegaer før/under/efter produktudvikling.
+          </li>
+          <li>
+            Kreativ visuel formidling og idéudvikling af budskab til storyline og manuskript.
           </li>
         </ul>
       </div>
@@ -26,17 +49,13 @@
         <span>Maj 2019 - September 2021</span>
         <ul>
           <li>
-            At kunne holde et overblik i pressede situationer, samt at levere en
-            god service til kunder, så de har en god oplevelse og en god start
-            på deres rejse.
+            Holde overblik i pressede og travle situationer, samt levere tilfredstillende kundeservice.
           </li>
           <li>
-            At opholde sig i et internationalt miljø, at kommunikere blandt
-            mange kulturer.
+            Kommunikation og tilstedeværelse  i et internationalt miljø.
           </li>
           <li>
-            At sikre sig at sikkerheds reglementer bliver overholdt, både for
-            kunder og personalets sikkerhed.
+            Kendskab til sikkerheds reglementer, og ansvarlighed heromkring.
           </li>
         </ul>
       </div>
@@ -47,43 +66,10 @@
         <span>Juni 2014 - August 2021</span>
         <ul>
           <li>
-            Ansvarlig for at butikken i aftentimerne, samt at kunne håndtere og
-            løse evt. uforudsete situationer der kunne opstå.
+            Lukkeansvarlig: håndring og udførsel af diverse daglige opgaver med ordentlighed.
           </li>
           <li>
-            Sørge for at kunderne får en god oplevelse på deres indkøbstur, og
-            at de får den hjælp de har behov for, samt at de får et smil med på
-            vejen.
-          </li>
-        </ul>
-      </div>
-
-      <div class="work-expierience-box work-expierience-anim">
-        <h2>BILLIG ANIMATION / VIRAL FILM</h2>
-        <h3>Motion Graphics praktikant</h3>
-        <span>Januar 2021 - April 2021</span>
-        <ul>
-          <li>
-            Jeg har gennem praktikken været en del af den overordnede
-            arbejdsproces. Fra kunden kommer med et ønske om animationsfilm til
-            de får deres færdige produkt.
-          </li>
-          <li>
-            Kundekontakt i forbindelse med opstartsfasen, dialoger om hvilket
-            produkt kunden ønsker. Samt sparring med kunden gennem hele fasen.
-          </li>
-          <li>
-            Udarbejdelse af animationsfilm, i programmet Vyond, samt redigering
-            og lyddesign af filmen i Premiere Pro.
-          </li>
-          <li>
-            Udarbejdelse af grafikker, i Illustrator og photoshop, samt
-            udarbejdelse af video og animation, i After Effects, som som
-            supplement til animationsfilm.
-          </li>
-          <li>
-            En stor del af arbejdet har involveret kreativ formidling af diverse
-            budskaber skriftligt, visuelt og auditiv.
+            Kurser/workshops med henblik på god kundekontakt og fokus på salg og mersalg.
           </li>
         </ul>
       </div>
@@ -163,6 +149,7 @@ section {
     grid-gap: 36px;
     h2 {
       font-size: 32px;
+      font-weight: 500;
     }
     h3 {
       font-size: 22px;

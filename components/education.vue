@@ -5,65 +5,46 @@
         <SideHeading title="Uddannelse" />
       </div>
       <div class="education-box education-anim">
-        <h2>Business Academy Aarhus</h2>
+        <h2>Multimedia Design AP - Business Academy Aarhus</h2>
         <h3>2019 - 2021</h3>
-        <span>Multimedia Design AP - Content Creation</span>
+        <span>Specialisering: Content Creation</span>
 
         <ul>
           <li>
-            Gennem uddannelsen har jeg udvidet min faglighed indenfor
-            grundlæggende design teori, herunder digital design og lært omkring
-            psykologiske faktorer der påvirker brugere. Jeg har kunne
-            implementere denne viden i virkelighedsnære projekter.
+            Praktisk viden omkring kreative design processer og teorier. 
+            Erfaring med forskellige content typer, såsom: illustrationer, billeder, 
+            video, animation og motion graphics, til hjemmeside og sociale medier.
           </li>
           <li>
-            Jeg har lært om traditionel markedsføring samt markedsføring gennem
-            sociale medier og om hvordan man henvender sig strategisk til
-            målgruppen, med målrettet content.
+            Social medie marketing og anvendelse af marketing og content strategier.
           </li>
           <li>
-            Jeg har arbejdet med forskellige content typer, herunder grafiske
-            elementer, video og animation (motion graphics) henvendt til
-            specifikke målgrupper.
+            Projekter (gruppe og individuel) der omhandler udvikling af løsninger og 
+            produkter for reelle kunder. Arbejdet med frontend programmering og CMS-systemer.
           </li>
           <li>
-            Jeg har arbejdet med frontend programmering af hjemmesider, samt
-            arbejdet med CMS-systemer.
-          </li>
-          <li>
-            I projekter har jeg primært stået for organiseringen og planlægning
-            af arbejdsforløbet. Jeg har sørget for at alle opgaver bliver lavet
-            i følge tidsplanen, og haft det forkromende overblik hele vejen
-            igennem.
-          </li>
-          <li>
-            Gennem den internationale linje har jeg udviklet mine internationale
-            og sproglige kompetencer, herunder fået en global forståelse af
-            kulturer.
+            Internationale og sproglige kompetencer, herunder global forståelse af kulturer.
           </li>
         </ul>
       </div>
 
       <div class="education-box education-anim">
-        <h2>Erhvervsgymnasiet Grindsted</h2>
+        <h2>Højere Teknisk Eksamen (HTX) - Erhvervsgymnasiet Grindsted</h2>
         <h3>2015 - 2018</h3>
         <span
-          >Højere Teknisk Eksamen (HTX) - Kommunikation & IT <br /><br />Uddrag
-          fra udtalelsen til legatmodtagelse:
+          >Studieretning: Kommunikation & IT - Valgfag: Mediefag C
         </span>
         <ul>
           <li>
-            Legatmodtageren har altid stillet sig til rådighed for skolen.
+            Forskellige kommunikations projekter med reelle kunder, 
+            omhandlende problem analysering og anvendelse af relevante metoder for produkt testning.
           </li>
           <li>
-            Legatmodtageren har igennem sine år på skolen påtaget sig et ansvar
-            for alles trivsel.
+            Viden om design og kommunikations teorier og strategier for digital og printet platforme.
           </li>
-          <li>Legatmodtageren tager ansvar for egen læring og udvikling.</li>
-          <li>
-            Legatmodtageren har haft overskud til at deltage i skolerelateret
-            aktiviteter udenfor skoletiden.
-          </li>
+          <li>Viden om forskellige genre, medie platforme og sammenspillet mellem. Forståelse for 
+            fundamentale egenskaber ved fakta og fiktion, samt hvordan de supplere hinanden.
+            </li>
         </ul>
       </div>
     </div>
@@ -139,6 +120,7 @@ section {
     }
     h2 {
       font-size: 32px;
+      font-weight: 500;
     }
     h3 {
       font-size: 22px;

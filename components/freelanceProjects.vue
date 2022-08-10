@@ -7,28 +7,26 @@
       <div class="freelance-box freelance-anim">
         <h2>Country Wellness ApS</h2>
         <h3>September 2020 – Nuværende</h3>
-        <span
-          >Arbejdet med skabelse af brand identitet, herunder logo, grafiske
-          designs and sociale medier.</span
-        >
+        <span>
+          Skabelse af visuel brand identitet. 
+          Grafiske og digitale elementer såsom: logo, video, fotografi, til sociale medier.
+        </span>
       </div>
       <div class="freelance-box freelance-anim">
         <h2>Smokepins ApS</h2>
         <h3>August 2020 – September 2020</h3>
-        <span
-          >Gruppeprojekt og freelance. Arbejdet med visuel brand identitet,
-          herunder udarbejdelse af logo, grafiske designs og sociale
-          medier.</span
-        >
+        <span>
+          Arbejdet videre med etablering af visuel identitet, samt grafisk designs og 
+          illustrationer til hjemmeside.
+        </span>
       </div>
       <div class="freelance-box freelance-anim">
         <h2>Naturrum Sønder Omme</h2>
         <h3>2016 – 2019</h3>
-        <span
-          >Gruppeprojekt og frivillig freelance. Arbejdet med grafiske og
-          digitale elementer, herunder logo, video, fotografering, sociale
-          medier.</span
-        >
+        <span>
+          Skabelse af visuel brand identitet. Grafiske og digitale elementer såsom: 
+          logo, video, fotografi, til sociale medier.
+        </span>
       </div>
     </div>
   </section>
@@ -106,6 +104,7 @@ section {
     grid-gap: 36px;
     h2 {
       font-size: 32px;
+      font-weight: 500;
     }
     h3 {
       font-size: 22px;
