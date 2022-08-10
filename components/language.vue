@@ -22,10 +22,7 @@
         <div>
           <span>DANSK</span><br /><span>
             <ul>
-              <li>Forståelse: Modersmål</li>
-              <li>Tale: Modersmål</li>
-              <li>Læse: Modersmål</li>
-              <li>Skrive: Modersmål</li>
+              <li>Modersmål</li>
             </ul>
           </span>
         </div>
