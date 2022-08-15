@@ -20,8 +20,10 @@
         </p>
         <h3 class="about-me-anim">Hvem er jeg så?</h3>
         <p class="about-me-anim">
-          En landtøs der forvildede sig til Aarhus i 2019. Jeg er rigtig glad for at være aktiv, og træner i fitness samt dyrker fodbold.
-          Derudover holder jeg meget af at vandre, hvortil min seneste tur gik til det sydlige Polen.
+          Jeg er rigtig glad for at være aktiv, og træner i fitness samt dyrker fodbold, 
+          Det hænder også jeg sidder foran fjerneren og ser bold.
+          Derudover holder jeg meget af at vandre, hvortil min seneste tur var 
+          bjergvandring i det sydlige Polen.
           Jeg er frivillig indsamler ved 'Gå for BørneTelefonen', og i den forbindelse skal jeg til Spanien 
           og vandre den Engelske Camino i september. 
           <br/><br/>
