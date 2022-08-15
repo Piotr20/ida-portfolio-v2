@@ -1,104 +1,141 @@
 <template>
   <section id="technical-skills">
     <h2 class="technical-skills-anim">TEKNISK ERFARING</h2>
-    <div class="skills-container">
-      <div class="icon-box">
-        <img
-          class="technical-skills-anim"
-          src="../static/images/skills-icons/file-icons_adobe-photoshop.png"
-          alt=""
-        />
+    <div class="wrapper">
+      <!-- Desktop headings -->
+      <div class="skills-text technical-skills-anim">
+        <h3 class="technical-skills-anim">Advanced</h3>
       </div>
-      <div class="icon-box">
-        <img
-          class="technical-skills-anim"
-          src="../static/images/skills-icons/file-icons_adobe-illustrator.png"
-          alt=""
-        />
+      <div class="skills-text technical-skills-anim">
+        <h3 class="technical-skills-anim">Intermediate</h3>
       </div>
-      <div class="icon-box">
-        <img
-          class="technical-skills-anim"
-          src="../static/images/skills-icons/file-icons_adobe-premiere.png"
-          alt=""
-        />
+      <div class="skills-text technical-skills-anim">
+        <h3 class="technical-skills-anim">Basic</h3>
       </div>
-      <div class="icon-box">
-        <img
-          class="technical-skills-anim"
-          src="../static/images/skills-icons/file-icons_adobe-xd.png"
-          alt=""
-        />
+      
+      <!-- Mobile heading -->
+      <div class="skills-text-mobile technical-skills-anim">
+        <h3 class="technical-skills-anim">Advanced</h3>
       </div>
-      <div class="icon-box">
-        <img
-          class="technical-skills-anim"
-          src="../static/images/skills-icons/file-icons_adobe-aftereffects.png"
-          alt=""
-        />
+
+      <!-- Bruger -->
+      <div class="skills-container">
+        <div class="icon-box">
+          <img
+            class="technical-skills-anim"
+            src="../static/images/skills-icons/file-icons_adobe-photoshop.png"
+            alt=""
+          />
+        </div>
+        <div class="icon-box">
+          <img
+            class="technical-skills-anim"
+            src="../static/images/skills-icons/file-icons_adobe-premiere.png"
+            alt=""
+          />
+        </div>
+        <div class="icon-box">
+          <img
+            class="technical-skills-anim"
+            src="../static/images/skills-icons/file-icons_adobe-aftereffects.png"
+            alt=""
+          />
+        </div>
+        <div class="icon-box">
+          <img
+            class="technical-skills-anim"
+            src="../static/images/skills-icons/file-icons_adobe-xd.png"
+            alt=""
+          />
+        </div>
+        <div class="icon-box">
+          <img
+            class="technical-skills-anim"
+            src="../static/images/skills-icons/mdi_microsoft-office.png"
+            alt=""
+          />
+        </div>
+        <div class="icon-box">
+          <img
+            class="technical-skills-anim"
+            src="../static/images/skills-icons/vyond_Logo.png"
+            alt=""
+          />
+        </div>
       </div>
-      <div class="icon-box">
-        <img
-          class="technical-skills-anim"
-          src="../static/images/skills-icons/figma-logo.png"
-          alt=""
-        />
+
+      <!-- Mobile heading -->
+      <div class="skills-text-mobile technical-skills-anim">
+        <h3 class="technical-skills-anim">Intermediate</h3>
       </div>
-      <div class="icon-box">
-        <img
-          class="technical-skills-anim"
-          src="../static/images/skills-icons/invision-logo.png"
-          alt=""
-        />
+
+      <!-- Advanceret -->
+      <div class="skills-container">
+        <div class="icon-box">
+          <img
+            class="technical-skills-anim"
+            src="../static/images/skills-icons/file-icons_adobe-illustrator.png"
+            alt=""
+          />
+        </div>
+        <div class="icon-box">
+          <img
+            class="technical-skills-anim"
+            src="../static/images/skills-icons/akar-icons_html-fill.png"
+            alt=""
+          />
+        </div>
+        <div class="icon-box">
+          <img
+            class="technical-skills-anim"
+            src="../static/images/skills-icons/akar-icons_css-fill.png"
+            alt=""
+          />
+        </div>
+        <div class="icon-box">
+          <img
+            class="technical-skills-anim"
+            src="../static/images/skills-icons/figma-logo.png"
+            alt=""
+          />
+        </div>
       </div>
-      <div class="icon-box">
-        <img
-          class="technical-skills-anim"
-          src="../static/images/skills-icons/akar-icons_html-fill.png"
-          alt=""
-        />
-      </div>
-      <div class="icon-box">
-        <img
-          class="technical-skills-anim"
-          src="../static/images/skills-icons/akar-icons_css-fill.png"
-          alt=""
-        />
-      </div>
-      <div class="icon-box">
-        <img
-          class="technical-skills-anim"
-          src="../static/images/skills-icons/brandico_wordpress.png"
-          alt=""
-        />
-      </div>
-      <div class="icon-box">
-        <img
-          class="technical-skills-anim"
-          src="../static/images/skills-icons/elementor-logo.png"
-          alt=""
-        />
-      </div>
-      <div class="icon-box">
-        <img
-          class="technical-skills-anim"
-          src="../static/images/skills-icons/mdi_microsoft-office.png"
-          alt=""
-        />
-      </div>
-      <div class="icon-box vyond-logo"> 
-        <img
-          class="technical-skills-anim"
-          src="../static/images/skills-icons/vyond_Logo.png"
-          alt=""
-        />
-      </div>
-     <div class="icon-box monday-logo">
-        <img
-          class="technical-skills-anim"
-          src="../static/images/skills-icons/monday-Logo.png"
-          alt=""
-        />
+
+      <!-- Mobile heading -->
+      <div class="skills-text-mobile technical-skills-anim">
+              <h3 class="technical-skills-anim">Basic</h3>
+            </div>
+
+      <!-- Ekspert -->
+      <div class="skills-container">
+        <div class="icon-box">
+          <img
+            class="technical-skills-anim"
+            src="../static/images/skills-icons/brandico_wordpress.png"
+            alt=""
+          />
+        </div>
+        <div class="icon-box">
+          <img
+            class="technical-skills-anim"
+            src="../static/images/skills-icons/elementor-logo.png"
+            alt=""
+          />
+        </div>
+        <div class="icon-box">
+          <img
+            class="technical-skills-anim"
+            src="../static/images/skills-icons/invision-logo.png"
+            alt=""
+          />
+        </div>
+        <div class="icon-box">
+          <img
+            class="technical-skills-anim"
+            src="../static/images/skills-icons/monday-logo-new.png"
+            alt=""
+          />
+        </div>
       </div>
     </div>
   </section>
@@ -148,13 +185,31 @@ section {
     }
   }
 }
-.skills-container {
-  padding-top: 32px;
+.wrapper {
+  margin-top: 50px;
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(4, 1fr);
+  height: auto;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 50px 2fr);
+}
+.skills-text{
+  display: none;
+}
+h3 {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+  }
+.skills-container {
+  padding: 25px 18px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: grid;
+  width: 100%;
+  margin-bottom: 50px;
+  grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(min-content, max-content);
-  grid-gap: 32px;
+  grid-gap: 20px;
   .icon-box {
     width: 100%;
     display: flex;
@@ -190,19 +245,40 @@ section {
       }
     }
   }
+h3 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+  }
+.skills-text-mobile{
+  display: none;
+}
+.skills-text{
+  display: block;
+}
+.wrapper {
+    display: grid;
+    padding-top: 50px;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr 2fr);
+    
+  }
   .skills-container {
-    padding-top: 40px;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    height: 36vh;
-    width: 45%;
+    padding: 30px 30px;
+    width: 85%;
     margin: 0 auto;
     justify-items: center;
     align-items: center;
     .icon-box {
-      width: 80%;
-      img {
       width: 100%;
+      img {
+      width: 90%;
     }
     }
     .vyond-logo {

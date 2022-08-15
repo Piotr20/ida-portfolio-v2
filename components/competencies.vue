@@ -79,7 +79,7 @@ section {
 .quote-container {
   width: 100%;
   padding: 48px 32px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
   position: relative;
   h3 {
     color: white;
