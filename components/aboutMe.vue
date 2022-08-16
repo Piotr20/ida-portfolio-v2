@@ -146,8 +146,14 @@ section {
       bottom: 0;
     }
   }
+  h3 {
+    font-size: 25px;
+    padding-top: 50px;
+    font-weight: 500;
+    text-align: left; 
+  }
   p {
-    padding-top: 32px;
+    padding-top: 20px;
     font-size: 18px;
     text-align: left;
     span {
@@ -161,10 +167,6 @@ section {
   padding-top: 32px;
   img {
     width: 75px;
-  }
-  h3 {
-    padding-left: 16px;
-    font-size: 22px;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -193,8 +195,7 @@ section {
       padding-top: 50px;
       font-size: 26px;
       font-weight: 500;
-      text-align: left;
-      
+      text-align: left; 
     }
     p {
       padding-top: 20px;
