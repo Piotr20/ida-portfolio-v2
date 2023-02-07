@@ -6,7 +6,7 @@
       <h1 class="intro-anim">Halløj!</h1>
       <h2 class="intro-anim">
         Jeg er <strong>digital designer</strong> med interesse for
-        <strong>motion graphic design</strong>
+        <strong>grafisk design & animation</strong>
       </h2>
     </div>
   </section>

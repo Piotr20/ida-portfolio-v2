@@ -4,14 +4,14 @@
       <div class="text-wrapper">
         <h2 class="about-me-anim">IDA SKJØDT OLESEN</h2>
         <p class="about-me-anim">
-          Hej jeg hedder Ida, jeg er 23 år og er bosat i Højbjerg, Aarhus. 
-          Jeg er uddannet <strong>Multimediedesigner</strong> og har tidligere beskæftiget mig med animation. 
+          Hej jeg hedder Ida, jeg er 23 år og er bosat i Filskov. 
+          Jeg er uddannet <strong>Multimediedesigner</strong> og har beskæftiget 
+          mig med animation og grafisk design. 
           <br/><br/>
           Jeg er særlig passioneret omkring at skabe fortællinger og dele
           budskaber gennem billeder og video, heriblandt særligt
-          <strong>animation og motion graphics</strong>. Det giver mig et kæmpe drive
-          hele processen med at arbejde på små detajler som forener sig og
-          bliver stykket sammen til en helhed.
+          <strong>animation og motion graphics</strong>. Hele processen giver mig et kæmpe drive,
+          det at arbejde med små detaljer som forener sig og til en større helhed.
           <br/><br/>
           For mig er arbejdsmiljøet med mine kollegaer en betydelig del af min
           motivation for mit arbejde, da det at <strong>samarbejde</strong> kan
@@ -20,14 +20,11 @@
         </p>
         <h3 class="about-me-anim">Hvem er jeg så?</h3>
         <p class="about-me-anim">
-          Jeg er rigtig glad for at være aktiv, og træner i fitness samt dyrker fodbold, 
-          Det hænder også jeg sidder foran fjerneren og ser bold.
-          Derudover holder jeg meget af at vandre, hvortil min seneste tur var 
-          bjergvandring i det sydlige Polen.
-          Jeg er frivillig indsamler ved 'Gå for BørneTelefonen', og i den forbindelse skal jeg til Spanien 
-          og vandre den Engelske Camino i september. 
+          Jeg er rigtig glad for at være aktiv, og træner i fitness samt dyrker fodbold.
+          Derudover holder jeg meget af at vandre, jeg har blandt andet været i Polen,
+          og har også i forbindelse med at være frivillig indsamler ved 'Gå for BørneTelefonen', 
+          været i Spanien for at vandre den Engelske Camino sidste år.
           <br/><br/>
-          <span>Fun Fact: Jeg er en kæmpe dyreelsker med slem pelsdyr allergi.</span>
           
         </p>
         <!-- <div class="based-in-aarhus about-me-anim">

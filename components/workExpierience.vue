@@ -2,7 +2,7 @@
   <section id="work-expierience">
     <div class="grid-conainer">
       <div class="side-box-container">
-        <SideHeading title="Arbejdserfaring" />
+        <SideHeading title="Erfaring" />
       </div>
       <div class="work-expierience-box work-expierience-anim">
         <h2>BILLIG ANIMATION</h2>
@@ -59,7 +59,7 @@
           </li>
         </ul>
       </div>
-
+<!-- 
       <div class="work-expierience-box work-expierience-anim">
         <h2>MENY SØNDER OMME</h2>
         <h3>Service medarbejder</h3>
@@ -73,6 +73,8 @@
           </li>
         </ul>
       </div>
+ -->
+
     </div>
   </section>
 </template>
