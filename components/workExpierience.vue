@@ -11,7 +11,7 @@
         <ul>
           <li>
             Udarbejdelse af animationsfilm og explainer videoer i Vyond og After Effects, 
-            samt redigering i Premiere Pro.  
+            samt redigering i Premiere Pro.
             Samt udarbejdelse af illustrationer og grafikker i Illustrator og Photoshop.
           </li>
           <li>
