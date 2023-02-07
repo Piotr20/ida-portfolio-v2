@@ -25,7 +25,6 @@
           og har også i forbindelse med at være frivillig indsamler ved 'Gå for BørneTelefonen', 
           været i Spanien for at vandre den Engelske Camino sidste år.
           <br/><br/>
-          
         </p>
         <!-- <div class="based-in-aarhus about-me-anim">
           <img
